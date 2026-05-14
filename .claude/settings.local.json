@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx bmad-method@next *)",
+      "Bash(python3 *)",
+      "Bash(New-Item -ItemType Directory -Force \"C:\\\\Users\\\\PC\\\\Desktop\\\\Dossier_Perso\\\\Github\\\\GuessStar\\\\Brainstorming\\\\brainstorming\")",
+      "Bash(Out-Null)",
+      "Bash(dir \"C:\\\\Users\\\\PC\\\\Desktop\\\\Dossier_Perso\\\\Github\\\\GuessStar\" /b)",
+      "PowerShell(New-Item *)",
+      "Bash(powershell *)",
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python3 \"C:/Users/PC/Desktop/Dossier_Perso/Github/GuessStar/_bmad/scripts/resolve_config.py\" --project-root \"C:/Users/PC/Desktop/Dossier_Perso/Github/GuessStar\" --key agents)"
+    ]
+  }
+}

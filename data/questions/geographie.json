@@ -1,0 +1,1311 @@
+[
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Australie ?",
+    "correct_answer": "Canberra",
+    "wrong_answers": ["Sydney", "Melbourne", "Brisbane"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus long fleuve du monde ?",
+    "correct_answer": "Le Nil",
+    "wrong_answers": ["L'Amazone", "Le Yangtsé", "Le Mississippi"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le pays le plus grand du monde par superficie ?",
+    "correct_answer": "La Russie",
+    "wrong_answers": ["Le Canada", "Les États-Unis", "La Chine"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Sur quel continent se trouve le Sahara ?",
+    "correct_answer": "Afrique",
+    "wrong_answers": ["Asie", "Amérique du Sud", "Australie"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Brésil ?",
+    "correct_answer": "Brasília",
+    "wrong_answers": ["Rio de Janeiro", "São Paulo", "Salvador"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus haut sommet du monde ?",
+    "correct_answer": "L'Everest",
+    "wrong_answers": ["Le K2", "L'Annapurna", "Le Mont Blanc"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Combien de pays composent l'Union européenne en 2024 ?",
+    "correct_answer": "27",
+    "wrong_answers": ["25", "28", "30"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel détroit sépare l'Europe de l'Afrique ?",
+    "correct_answer": "Détroit de Gibraltar",
+    "wrong_answers": ["Détroit de Bering", "Détroit de Magellan", "Détroit d'Ormuz"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle mer borde la Turquie à l'ouest ?",
+    "correct_answer": "Mer Égée",
+    "wrong_answers": ["Mer Noire", "Mer Rouge", "Mer Méditerranée"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays possède la plus longue frontière terrestre avec la France ?",
+    "correct_answer": "Brésil (via la Guyane)",
+    "wrong_answers": ["Espagne", "Allemagne", "Italie"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Japon ?",
+    "correct_answer": "Tokyo",
+    "wrong_answers": ["Osaka", "Kyoto", "Hiroshima"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le pays le plus peuplé du monde en 2024 ?",
+    "correct_answer": "Inde",
+    "wrong_answers": ["Chine", "États-Unis", "Indonésie"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le lac Titicaca ?",
+    "correct_answer": "À la frontière Pérou-Bolivie",
+    "wrong_answers": ["Brésil", "Chili", "Argentine"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel océan borde la côte ouest de l'Afrique ?",
+    "correct_answer": "Océan Atlantique",
+    "wrong_answers": ["Océan Indien", "Océan Pacifique", "Mer Méditerranée"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Argentine ?",
+    "correct_answer": "Buenos Aires",
+    "wrong_answers": ["Montevideo", "Santiago", "Lima"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le pays le plus petit du monde ?",
+    "correct_answer": "Vatican",
+    "wrong_answers": ["Monaco", "Saint-Marin", "Liechtenstein"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel fleuve traverse Paris ?",
+    "correct_answer": "La Seine",
+    "wrong_answers": ["La Loire", "La Garonne", "Le Rhône"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le Machu Picchu ?",
+    "correct_answer": "Pérou",
+    "wrong_answers": ["Bolivie", "Équateur", "Colombie"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Nouvelle-Zélande ?",
+    "correct_answer": "Wellington",
+    "wrong_answers": ["Auckland", "Christchurch", "Dunedin"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le désert le plus froid du monde ?",
+    "correct_answer": "Antarctique",
+    "wrong_answers": ["Sahara", "Gobi", "Atacama"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Canada ?",
+    "correct_answer": "Ottawa",
+    "wrong_answers": ["Toronto", "Montréal", "Vancouver"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel fleuve est le plus long d'Europe ?",
+    "correct_answer": "La Volga",
+    "wrong_answers": ["Le Danube", "Le Rhin", "Le Rhône"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le Taj Mahal ?",
+    "correct_answer": "Inde",
+    "wrong_answers": ["Pakistan", "Bangladesh", "Népal"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle mer sépare la Sardaigne de la Corse ?",
+    "correct_answer": "Mer Tyrrhénienne",
+    "wrong_answers": ["Mer Ligure", "Mer Adriatique", "Mer Ionienne"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand océan du monde ?",
+    "correct_answer": "Océan Pacifique",
+    "wrong_answers": ["Océan Atlantique", "Océan Indien", "Océan Arctique"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Egypte ?",
+    "correct_answer": "Le Caire",
+    "wrong_answers": ["Alexandrie", "Louxor", "Assouan"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le Kilimandjaro se trouve dans quel pays ?",
+    "correct_answer": "Tanzanie",
+    "wrong_answers": ["Kenya", "Éthiopie", "Ouganda"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Corée du Sud ?",
+    "correct_answer": "Séoul",
+    "wrong_answers": ["Busan", "Incheon", "Daegu"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la ville d'Istanbul ?",
+    "correct_answer": "Turquie",
+    "wrong_answers": ["Grèce", "Bulgarie", "Roumanie"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel canal relie la mer Rouge à la Méditerranée ?",
+    "correct_answer": "Canal de Suez",
+    "wrong_answers": ["Canal de Panama", "Canal de Kiel", "Canal de Corinthe"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Norvège ?",
+    "correct_answer": "Oslo",
+    "wrong_answers": ["Bergen", "Stockholm", "Helsinki"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays a la plus longue côte maritime du monde ?",
+    "correct_answer": "Canada",
+    "wrong_answers": ["Russie", "Australie", "Norvège"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la plus grande île du monde ?",
+    "correct_answer": "Groenland",
+    "wrong_answers": ["Nouvelle-Guinée", "Bornéo", "Madagascar"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve Dubaï ?",
+    "correct_answer": "Émirats arabes unis",
+    "wrong_answers": ["Arabie Saoudite", "Qatar", "Koweït"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand lac d'Afrique ?",
+    "correct_answer": "Lac Victoria",
+    "wrong_answers": ["Lac Tanganyika", "Lac Malawi", "Lac Tchad"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Pologne ?",
+    "correct_answer": "Varsovie",
+    "wrong_answers": ["Cracovie", "Gdansk", "Wroclaw"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays partage la péninsule ibérique avec l'Espagne ?",
+    "correct_answer": "Portugal",
+    "wrong_answers": ["Andorre", "France", "Maroc"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le fleuve Amazone traverse principalement quel pays ?",
+    "correct_answer": "Brésil",
+    "wrong_answers": ["Pérou", "Colombie", "Vénézuéla"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Inde ?",
+    "correct_answer": "New Delhi",
+    "wrong_answers": ["Mumbai", "Kolkata", "Chennai"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quelle chaîne de montagnes se trouve l'Everest ?",
+    "correct_answer": "Himalaya",
+    "wrong_answers": ["Karakoram", "Hindu Kush", "Pamir"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Thaïlande ?",
+    "correct_answer": "Bangkok",
+    "wrong_answers": ["Chiang Mai", "Pattaya", "Phuket"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est connu comme le 'pays du soleil levant' ?",
+    "correct_answer": "Japon",
+    "wrong_answers": ["Corée du Sud", "Chine", "Thaïlande"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La mer Caspienne est le plus grand lac du monde. Dans combien de pays est-elle partagée ?",
+    "correct_answer": "5",
+    "wrong_answers": ["3", "4", "6"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Suède ?",
+    "correct_answer": "Stockholm",
+    "wrong_answers": ["Göteborg", "Malmö", "Uppsala"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est le plus proche de l'Antarctique ?",
+    "correct_answer": "Argentine",
+    "wrong_answers": ["Chili", "Australie", "Nouvelle-Zélande"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le Péloponnèse ?",
+    "correct_answer": "Grèce",
+    "wrong_answers": ["Italie", "Turquie", "Albanit"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus petit pays d'Afrique ?",
+    "correct_answer": "Seychelles",
+    "wrong_answers": ["Djibouti", "Swaziland", "Gambie"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Chine ?",
+    "correct_answer": "Pékin (Beijing)",
+    "wrong_answers": ["Shanghai", "Hong Kong", "Guangzhou"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays possède le plus de fuseaux horaires ?",
+    "correct_answer": "France",
+    "wrong_answers": ["Russie", "États-Unis", "Chine"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La Grande Barrière de Corail se trouve dans quel pays ?",
+    "correct_answer": "Australie",
+    "wrong_answers": ["Philippines", "Indonésie", "Nouvelle-Zélande"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Grèce ?",
+    "correct_answer": "Athènes",
+    "wrong_answers": ["Thessalonique", "Héraklion", "Patras"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel fleuve traverse la ville de Budapest ?",
+    "correct_answer": "Le Danube",
+    "wrong_answers": ["La Volga", "Le Rhin", "La Vistule"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Afrique compte le plus d'habitants ?",
+    "correct_answer": "Nigeria",
+    "wrong_answers": ["Éthiopie", "Égypte", "RD Congo"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Russie ?",
+    "correct_answer": "Moscou",
+    "wrong_answers": ["Saint-Pétersbourg", "Novossibirsk", "Ekaterinbourg"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le détroit de Béring sépare quel pays de quel autre ?",
+    "correct_answer": "Russie et États-Unis",
+    "wrong_answers": ["Canada et Russie", "Alaska et Sibérie (différente formulation)", "Japon et Russie"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le deuxième plus haut sommet du monde ?",
+    "correct_answer": "K2",
+    "wrong_answers": ["Kangchenjunga", "Lhotse", "Makalu"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Turquie ?",
+    "correct_answer": "Ankara",
+    "wrong_answers": ["Istanbul", "Izmir", "Bursa"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le désert de Gobi ?",
+    "correct_answer": "Mongolie et Chine",
+    "wrong_answers": ["Kazakhstan", "Ouzbékistan", "Iran"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle ville est la plus haute capitale du monde ?",
+    "correct_answer": "La Paz (Bolivie)",
+    "wrong_answers": ["Quito", "Bogotá", "Addis-Abeba"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est une île en Méditerranée et membre de l'UE ?",
+    "correct_answer": "Malte",
+    "wrong_answers": ["Chypre", "Corse", "Sardaigne"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Maroc ?",
+    "correct_answer": "Rabat",
+    "wrong_answers": ["Casablanca", "Marrakech", "Fès"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le lac Baïkal se trouve dans quel pays ?",
+    "correct_answer": "Russie",
+    "wrong_answers": ["Mongolie", "Kazakhstan", "Ukraine"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays se trouve entièrement dans les Pyrénées ?",
+    "correct_answer": "Andorre",
+    "wrong_answers": ["Monaco", "Saint-Marin", "Liechtenstein"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la plus grande ville d'Afrique par population ?",
+    "correct_answer": "Lagos",
+    "wrong_answers": ["Le Caire", "Kinshasa", "Johannesburg"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays possède le plus de voisins (frontières terrestres) ?",
+    "correct_answer": "Chine",
+    "wrong_answers": ["Russie", "Brésil", "Allemagne"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le nom du volcan actif qui a détruit Pompéi ?",
+    "correct_answer": "Vésuve",
+    "wrong_answers": ["Etna", "Stromboli", "Vulcano"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Afrique du Sud ?",
+    "correct_answer": "Pretoria (administrative)",
+    "wrong_answers": ["Le Cap", "Johannesburg", "Durban"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel fleuve se jette dans la mer Noire après avoir traversé 10 pays ?",
+    "correct_answer": "Le Danube",
+    "wrong_answers": ["Le Rhin", "La Volga", "Le Dniepr"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Hongrie ?",
+    "correct_answer": "Budapest",
+    "wrong_answers": ["Vienne", "Bratislava", "Prague"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est parfois appelé 'le pays des mille collines' ?",
+    "correct_answer": "Rwanda",
+    "wrong_answers": ["Burundi", "Ouganda", "Kenya"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Où se trouve le cap Horn ?",
+    "correct_answer": "Chili",
+    "wrong_answers": ["Argentine", "Antarctique", "Pérou"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Autriche ?",
+    "correct_answer": "Vienne",
+    "wrong_answers": ["Salzbourg", "Innsbruck", "Graz"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le point le plus bas de la Terre (dépression) ?",
+    "correct_answer": "Mer Morte",
+    "wrong_answers": ["Lac Assal", "Lac Baïkal", "Vallée de la Mort"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La Patagonie est une région de quel pays principalement ?",
+    "correct_answer": "Argentine",
+    "wrong_answers": ["Chili", "Brésil", "Uruguay"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Asie est connu pour ses temples d'Angkor Vat ?",
+    "correct_answer": "Cambodge",
+    "wrong_answers": ["Thaïlande", "Vietnam", "Myanmar"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle chaîne de montagnes traverse l'Espagne du nord ?",
+    "correct_answer": "Les Pyrénées",
+    "wrong_answers": ["Les Cantabres", "La Sierra Nevada", "Le Massif central"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le fleuve le plus long d'Amérique du Nord ?",
+    "correct_answer": "Mississippi-Missouri",
+    "wrong_answers": ["Mackenzie", "Yukon", "Rio Grande"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la ville de Tombouctou ?",
+    "correct_answer": "Mali",
+    "wrong_answers": ["Niger", "Mauritanie", "Sénégal"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le pays le plus grand d'Amérique du Sud ?",
+    "correct_answer": "Brésil",
+    "wrong_answers": ["Argentine", "Pérou", "Colombie"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La péninsule de Crimée appartient à quelle mer ?",
+    "correct_answer": "Mer Noire",
+    "wrong_answers": ["Mer d'Azov", "Mer Méditerranée", "Mer Caspienne"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale des Pays-Bas ?",
+    "correct_answer": "Amsterdam",
+    "wrong_answers": ["La Haye", "Rotterdam", "Utrecht"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est entouré par le Portugal et la mer ?",
+    "correct_answer": "Aucun — mauvaise formulation (l'Espagne entoure le Portugal)",
+    "wrong_answers": ["Andorre", "Gibraltar", "Açores"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle ville est construite sur 118 îles en Italie ?",
+    "correct_answer": "Venise",
+    "wrong_answers": ["Naples", "Gênes", "Trieste"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le mont Fuji ?",
+    "correct_answer": "Japon",
+    "wrong_answers": ["Chine", "Corée du Sud", "Taiwan"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Belgique ?",
+    "correct_answer": "Bruxelles",
+    "wrong_answers": ["Anvers", "Liège", "Gand"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le Nil traverse combien de pays ?",
+    "correct_answer": "11",
+    "wrong_answers": ["7", "9", "13"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Mexique ?",
+    "correct_answer": "Mexico City",
+    "wrong_answers": ["Guadalajara", "Monterrey", "Cancún"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays africain n'a jamais été colonisé ?",
+    "correct_answer": "Éthiopie",
+    "wrong_answers": ["Liberia", "Égypte", "Maroc"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel archipel appartient au Portugal et se trouve dans l'Atlantique ?",
+    "correct_answer": "Açores",
+    "wrong_answers": ["Canaries", "Madère", "Cap-Vert"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Suisse ?",
+    "correct_answer": "Berne",
+    "wrong_answers": ["Zurich", "Genève", "Lausanne"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays possède le plus grand nombre d'îles au monde ?",
+    "correct_answer": "Suède",
+    "wrong_answers": ["Indonésie", "Philippines", "Finlande"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le pays le plus plat du monde ?",
+    "correct_answer": "Maldives",
+    "wrong_answers": ["Bangladesh", "Pays-Bas", "Bahreïn"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La ville de Carthage (antique) se trouvait dans quel pays actuel ?",
+    "correct_answer": "Tunisie",
+    "wrong_answers": ["Algérie", "Libye", "Maroc"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le continent le plus sec du monde ?",
+    "correct_answer": "Antarctique",
+    "wrong_answers": ["Australie", "Afrique", "Asie"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le mont Olympe (mythologie grecque) ?",
+    "correct_answer": "Grèce",
+    "wrong_answers": ["Turquie", "Italie", "Chypre"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Finlande ?",
+    "correct_answer": "Helsinki",
+    "wrong_answers": ["Tampere", "Turku", "Oulu"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est traversé par le tropique du Capricorne et l'équateur ?",
+    "correct_answer": "Brésil",
+    "wrong_answers": ["Équateur", "Colombie", "Pérou"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel détroit sépare l'Amérique du Nord de l'Amérique du Sud ?",
+    "correct_answer": "Aucun (elles sont reliées)",
+    "wrong_answers": ["Détroit de Panama", "Détroit de Magellan", "Détroit de Floride"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Irak ?",
+    "correct_answer": "Bagdad",
+    "wrong_answers": ["Mossoul", "Bassora", "Erbil"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand désert chaud du monde ?",
+    "correct_answer": "Sahara",
+    "wrong_answers": ["Arabie", "Gobi", "Atacama"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Combien de pays partagent une frontière avec l'Allemagne ?",
+    "correct_answer": "9",
+    "wrong_answers": ["7", "8", "10"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le lac Baïkal, le plus profond du monde ?",
+    "correct_answer": "Russie",
+    "wrong_answers": ["Mongolie", "Kazakhstan", "Chine"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Iran ?",
+    "correct_answer": "Téhéran",
+    "wrong_answers": ["Ispahan", "Chiraz", "Tabriz"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Asie du Sud-Est possède plus de 7 000 îles ?",
+    "correct_answer": "Philippines",
+    "wrong_answers": ["Indonésie", "Malaisie", "Vietnam"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la République tchèque ?",
+    "correct_answer": "Prague",
+    "wrong_answers": ["Brno", "Ostrava", "Bratislava"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Amérique centrale est le plus grand ?",
+    "correct_answer": "Nicaragua",
+    "wrong_answers": ["Guatemala", "Honduras", "Costa Rica"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle mer est entourée par la Croatie, l'Italie et l'Albanie notamment ?",
+    "correct_answer": "Mer Adriatique",
+    "wrong_answers": ["Mer Ionienne", "Mer Tyrrhénienne", "Mer Égée"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Roumanie ?",
+    "correct_answer": "Bucarest",
+    "wrong_answers": ["Cluj-Napoca", "Timișoara", "Iași"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le mont Blanc est le point culminant de quel pays ?",
+    "correct_answer": "France (et Italie)",
+    "wrong_answers": ["Suisse", "Autriche", "Allemagne"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le pays le plus peuplé d'Amérique du Sud ?",
+    "correct_answer": "Brésil",
+    "wrong_answers": ["Colombie", "Argentine", "Pérou"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle ville est la capitale de l'Écosse ?",
+    "correct_answer": "Édimbourg",
+    "wrong_answers": ["Glasgow", "Aberdeen", "Dundee"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel canal relie les océans Atlantique et Pacifique ?",
+    "correct_answer": "Canal de Panama",
+    "wrong_answers": ["Canal de Suez", "Canal de Nicaragua", "Canal de Kiel"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la forêt amazonienne majoritairement ?",
+    "correct_answer": "Brésil",
+    "wrong_answers": ["Colombie", "Venezuela", "Pérou"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand pays d'Amérique du Nord ?",
+    "correct_answer": "Canada",
+    "wrong_answers": ["États-Unis", "Mexique", "Groenland"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Algérie ?",
+    "correct_answer": "Alger",
+    "wrong_answers": ["Oran", "Constantine", "Annaba"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve Katmandou ?",
+    "correct_answer": "Népal",
+    "wrong_answers": ["Bhoutan", "Tibet", "Inde"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Afrique du Nord est le plus grand du continent ?",
+    "correct_answer": "Algérie",
+    "wrong_answers": ["Soudan", "Libye", "Égypte"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Portugal ?",
+    "correct_answer": "Lisbonne",
+    "wrong_answers": ["Porto", "Braga", "Coimbra"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le nom du golfe entre l'Italie et les Balkans ?",
+    "correct_answer": "Golfe de Trieste / Mer Adriatique",
+    "wrong_answers": ["Golfe de Gênes", "Golfe de Naples", "Mer Ionienne"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est connu comme 'la terre des mille lacs' ?",
+    "correct_answer": "Finlande",
+    "wrong_answers": ["Suède", "Canada", "Norvège"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle ville est à la fois en Europe et en Asie ?",
+    "correct_answer": "Istanbul",
+    "wrong_answers": ["Ankara", "Tiflis", "Bakou"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand désert du monde après l'Antarctique ?",
+    "correct_answer": "Arctique",
+    "wrong_answers": ["Sahara", "Arabie", "Gobi"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays borde le Rwanda à l'est ?",
+    "correct_answer": "Tanzanie",
+    "wrong_answers": ["Kenya", "Ouganda", "Burundi"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Indonésie depuis 2024 ?",
+    "correct_answer": "Nusantara",
+    "wrong_answers": ["Jakarta", "Surabaya", "Bandung"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus haut sommet d'Afrique ?",
+    "correct_answer": "Kilimandjaro",
+    "wrong_answers": ["Mont Kenya", "Ruwenzori", "Mont Elgon"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la ville de Sarajevo ?",
+    "correct_answer": "Bosnie-Herzégovine",
+    "wrong_answers": ["Serbie", "Croatie", "Monténégro"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Kenya ?",
+    "correct_answer": "Nairobi",
+    "wrong_answers": ["Mombasa", "Kisumu", "Nakuru"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle mer intérieure n'a pas de communication naturelle avec un océan ?",
+    "correct_answer": "Mer Caspienne",
+    "wrong_answers": ["Mer Morte", "Mer Noire", "Mer d'Aral"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le point culminant de l'Europe (hors Caucase) ?",
+    "correct_answer": "Mont Blanc",
+    "wrong_answers": ["Mont Rose", "Gran Paradiso", "Finsteraarhorn"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Arabie Saoudite ?",
+    "correct_answer": "Riyad",
+    "wrong_answers": ["Djeddah", "La Mecque", "Médine"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La Transylvanie est une région historique de quel pays ?",
+    "correct_answer": "Roumanie",
+    "wrong_answers": ["Hongrie", "Autriche", "Slovaquie"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Asie est une monarchie absolue sans constitution ?",
+    "correct_answer": "Arabie Saoudite",
+    "wrong_answers": ["Qatar", "Bahreïn", "Brunei"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le lac Assal, point le plus bas d'Afrique ?",
+    "correct_answer": "Djibouti",
+    "wrong_answers": ["Éthiopie", "Somalie", "Érythrée"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Colombie ?",
+    "correct_answer": "Bogotá",
+    "wrong_answers": ["Medellín", "Cali", "Cartagena"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est appelé 'la perle des Caraïbes' ?",
+    "correct_answer": "Cuba",
+    "wrong_answers": ["Haïti", "Jamaïque", "République dominicaine"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le détroit de Malacca sépare quels pays ?",
+    "correct_answer": "Malaisie et Indonésie (île de Sumatra)",
+    "wrong_answers": ["Philippines et Brunei", "Singapour et Thaïlande", "Vietnam et Cambodge"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Vietnam ?",
+    "correct_answer": "Hanoi",
+    "wrong_answers": ["Hô Chi Minh-Ville", "Da Nang", "Hue"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La Laponie se trouve dans quels pays principalement ?",
+    "correct_answer": "Finlande, Suède, Norvège et Russie",
+    "wrong_answers": ["Islande et Danemark", "Canada et Alaska", "Sibérie uniquement"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand pays d'Afrique par superficie ?",
+    "correct_answer": "Algérie",
+    "wrong_answers": ["RD Congo", "Soudan", "Libye"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Éthiopie ?",
+    "correct_answer": "Addis-Abeba",
+    "wrong_answers": ["Asmara", "Djibouti", "Hargeisa"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Europe n'est pas membre de l'OTAN ni de l'UE ?",
+    "correct_answer": "Suisse",
+    "wrong_answers": ["Suède", "Finlande", "Autriche"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle ville portuaire est surnommée 'la porte de l'Inde' ?",
+    "correct_answer": "Mumbai",
+    "wrong_answers": ["Calcutta", "Chennai", "Goa"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel archipel compose l'Islande ?",
+    "correct_answer": "L'Islande est une seule grande île",
+    "wrong_answers": ["Archipel de 100 îles", "Archipel volcanique de 50 îles", "Archipel nordique de 200 îles"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Jordanie ?",
+    "correct_answer": "Amman",
+    "wrong_answers": ["Aqaba", "Pétra", "Zarqa"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la ville de Chichen Itza ?",
+    "correct_answer": "Mexique",
+    "wrong_answers": ["Guatemala", "Pérou", "Honduras"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand lac d'Amérique du Nord ?",
+    "correct_answer": "Lac Supérieur",
+    "wrong_answers": ["Lac Michigan", "Lac Huron", "Lac Ontario"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La presqu'île de Yucatán appartient à quel pays ?",
+    "correct_answer": "Mexique",
+    "wrong_answers": ["Guatemala", "Belize", "Honduras"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Slovaquie ?",
+    "correct_answer": "Bratislava",
+    "wrong_answers": ["Košice", "Prešov", "Žilina"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le Bosphore est un détroit situé dans quel pays ?",
+    "correct_answer": "Turquie",
+    "wrong_answers": ["Grèce", "Bulgarie", "Géorgie"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la plus grande ville du monde par superficie ?",
+    "correct_answer": "Hulunbuir (Chine)",
+    "wrong_answers": ["Tokyo", "New York", "Moscou"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays des Balkans est membre de l'UE depuis 2013 ?",
+    "correct_answer": "Croatie",
+    "wrong_answers": ["Serbie", "Bosnie", "Monténégro"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouvent les chutes Victoria ?",
+    "correct_answer": "À la frontière Zimbabwe-Zambie",
+    "wrong_answers": ["Mozambique", "Tanzanie", "Malawi"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus long mur de l'histoire humaine ?",
+    "correct_answer": "Grande Muraille de Chine",
+    "wrong_answers": ["Mur d'Hadrien", "Mur de Berlin", "Mur des Lamentations"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Pakistan ?",
+    "correct_answer": "Islamabad",
+    "wrong_answers": ["Karachi", "Lahore", "Peshawar"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Océanie est une monarchie dont le roi est aussi roi d'Angleterre ?",
+    "correct_answer": "Australie",
+    "wrong_answers": ["Nouvelle-Zélande", "Fidji", "Tonga"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Serbie ?",
+    "correct_answer": "Belgrade",
+    "wrong_answers": ["Novi Sad", "Niš", "Subotica"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le Nil Blanc et le Nil Bleu se rejoignent dans quelle ville ?",
+    "correct_answer": "Khartoum (Soudan)",
+    "wrong_answers": ["Assouan", "Louxor", "Juba"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Malaisie ?",
+    "correct_answer": "Kuala Lumpur",
+    "wrong_answers": ["Singapour", "Jakarta", "Manille"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est entièrement enclavé dans l'Italie ?",
+    "correct_answer": "Saint-Marin",
+    "wrong_answers": ["Vatican", "Monaco", "Andorre"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve le désert d'Atacama ?",
+    "correct_answer": "Chili",
+    "wrong_answers": ["Pérou", "Bolivie", "Argentine"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel fleuve sépare les États-Unis du Mexique en grande partie ?",
+    "correct_answer": "Rio Grande",
+    "wrong_answers": ["Colorado", "Missouri", "Arkansas"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Ukraine ?",
+    "correct_answer": "Kyiv",
+    "wrong_answers": ["Kharkiv", "Lviv", "Odessa"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "L'Indonésie est l'archipel avec le plus grand nombre d'habitants. Combien d'îles habitées environ ?",
+    "correct_answer": "Environ 6 000",
+    "wrong_answers": ["Environ 1 000", "Environ 3 000", "Environ 10 000"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle chaîne de montagnes sépare l'Europe de l'Asie en Russie ?",
+    "correct_answer": "Monts Oural",
+    "wrong_answers": ["Caucase", "Altaï", "Oural et Caucase"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la ville de Petra, la cité rose ?",
+    "correct_answer": "Jordanie",
+    "wrong_answers": ["Égypte", "Arabie Saoudite", "Israël"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de l'Islande ?",
+    "correct_answer": "Reykjavik",
+    "wrong_answers": ["Akureyri", "Reykjanes", "Selfoss"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Asie centrale était la 4e plus grande mer du monde qui a presque disparu ?",
+    "correct_answer": "Kazakhstan et Ouzbékistan (mer d'Aral)",
+    "wrong_answers": ["Turkménistan", "Kirghizistan", "Tadjikistan"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Combien de pays bordent la mer Méditerranée ?",
+    "correct_answer": "21",
+    "wrong_answers": ["17", "19", "23"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle ville américaine est surnommée 'la Ville des Anges' ?",
+    "correct_answer": "Los Angeles",
+    "wrong_answers": ["San Francisco", "Miami", "Las Vegas"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la péninsule de Baja California ?",
+    "correct_answer": "Mexique",
+    "wrong_answers": ["États-Unis", "Guatemala", "Cuba"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le pays des Balkans le plus récemment indépendant (2008) ?",
+    "correct_answer": "Kosovo",
+    "wrong_answers": ["Monténégro", "Macédoine du Nord", "Bosnie"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays possède le plus de volcans actifs au monde ?",
+    "correct_answer": "Indonésie",
+    "wrong_answers": ["Japon", "États-Unis", "Russie"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale du Chili ?",
+    "correct_answer": "Santiago",
+    "wrong_answers": ["Valparaíso", "Concepción", "La Serena"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays est le principal producteur de café au monde ?",
+    "correct_answer": "Brésil",
+    "wrong_answers": ["Colombie", "Éthiopie", "Vietnam"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la plus grande ville du continent africain par population ?",
+    "correct_answer": "Lagos (Nigeria)",
+    "wrong_answers": ["Le Caire", "Kinshasa", "Johannesburg"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la Vallée des Rois ?",
+    "correct_answer": "Égypte",
+    "wrong_answers": ["Soudan", "Éthiopie", "Jordanie"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand pays d'Océanie par superficie ?",
+    "correct_answer": "Australie",
+    "wrong_answers": ["Papouasie-Nouvelle-Guinée", "Nouvelle-Zélande", "Indonésie"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "La Sardaigne est une île appartenant à quel pays ?",
+    "correct_answer": "Italie",
+    "wrong_answers": ["France", "Espagne", "Malte"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Asie est composé uniquement de petites îles basses en danger face à la montée des eaux ?",
+    "correct_answer": "Maldives",
+    "wrong_answers": ["Tuvalu", "Kiribati", "Vanuatu"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Tanzanie ?",
+    "correct_answer": "Dodoma",
+    "wrong_answers": ["Dar es Salaam", "Zanzibar", "Arusha"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays d'Europe du Nord a pour capitale Stockholm ?",
+    "correct_answer": "Suède",
+    "wrong_answers": ["Norvège", "Danemark", "Finlande"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Le Rajasthan est un état de quel pays ?",
+    "correct_answer": "Inde",
+    "wrong_answers": ["Pakistan", "Bangladesh", "Népal"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le plus grand port à conteneurs du monde ?",
+    "correct_answer": "Shanghai",
+    "wrong_answers": ["Singapour", "Rotterdam", "Hong Kong"],
+    "difficulty": "hard"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Dans quel pays se trouve la ville de Fès ?",
+    "correct_answer": "Maroc",
+    "wrong_answers": ["Tunisie", "Algérie", "Mauritanie"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quelle est la capitale de la Biélorussie ?",
+    "correct_answer": "Minsk",
+    "wrong_answers": ["Brest", "Grodno", "Vitebsk"],
+    "difficulty": "medium"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel pays du Moyen-Orient est le plus grand producteur de pétrole au monde ?",
+    "correct_answer": "Arabie Saoudite",
+    "wrong_answers": ["Iran", "Irak", "Émirats arabes unis"],
+    "difficulty": "easy"
+  },
+  {
+    "theme": "Géographie",
+    "question": "Quel est le seul pays avec une frontière terrestre avec le Danemark ?",
+    "correct_answer": "Allemagne",
+    "wrong_answers": ["Suède", "Norvège", "Pays-Bas"],
+    "difficulty": "medium"
+  }
+]
