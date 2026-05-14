@@ -34,19 +34,16 @@
   {
     "id": "sport_s_003",
     "theme": "Sport",
-    "question": "Cite des clubs ayant remporté la Ligue des Champions plus de 3 fois",
+    "question": "Cite des clubs ayant remporté la Ligue des Champions 4 fois ou plus",
     "items": [
       {"name": "Real Madrid", "points": 1},
       {"name": "AC Milan", "points": 1},
-      {"name": "Bayern Munich", "points": 2},
+      {"name": "Bayern Munich", "points": 1},
       {"name": "Liverpool", "points": 2},
       {"name": "Barcelone", "points": 2},
-      {"name": "Ajax", "points": 3},
-      {"name": "Juventus", "points": 3},
-      {"name": "Benfica", "points": 4},
-      {"name": "Nottingham Forest", "points": 4}
+      {"name": "Ajax", "points": 3}
     ],
-    "trap": {"name": "Manchester United", "penalty": 5}
+    "trap": {"name": "Juventus", "penalty": 5}
   },
   {
     "id": "sport_s_004",
@@ -179,10 +176,9 @@
       {"name": "Nouvelle-Zélande", "points": 1},
       {"name": "Afrique du Sud", "points": 1},
       {"name": "Australie", "points": 2},
-      {"name": "Angleterre", "points": 2},
-      {"name": "France", "points": 3}
+      {"name": "Angleterre", "points": 3}
     ],
-    "trap": {"name": "Irlande", "penalty": 5}
+    "trap": {"name": "France", "penalty": 5}
   },
   {
     "id": "sport_s_013",
@@ -221,12 +217,16 @@
   {
     "id": "sport_s_015",
     "theme": "Sport",
-    "question": "Cite des records du monde détenus par Usain Bolt",
+    "question": "Cite des sports où la France a été championne olympique en 2024 (Paris)",
     "items": [
-      {"name": "100 mètres (9.58s)", "points": 1},
-      {"name": "200 mètres (19.19s)", "points": 2},
-      {"name": "4x100m avec la Jamaïque (36.84s)", "points": 3}
+      {"name": "Judo", "points": 1},
+      {"name": "Cyclisme sur piste", "points": 2},
+      {"name": "Handball (femmes)", "points": 2},
+      {"name": "Escrime", "points": 2},
+      {"name": "Taekwondo", "points": 3},
+      {"name": "Canoë-kayak", "points": 3},
+      {"name": "BMX freestyle", "points": 4}
     ],
-    "trap": {"name": "400 mètres", "penalty": 5}
+    "trap": {"name": "Football", "penalty": 5}
   }
 ]

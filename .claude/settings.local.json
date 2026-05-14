@@ -8,7 +8,11 @@
       "Bash(dir \"C:\\\\Users\\\\PC\\\\Desktop\\\\Dossier_Perso\\\\Github\\\\GuessStar\" /b)",
       "PowerShell(New-Item *)",
       "Bash(powershell *)",
-      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python3 \"C:/Users/PC/Desktop/Dossier_Perso/Github/GuessStar/_bmad/scripts/resolve_config.py\" --project-root \"C:/Users/PC/Desktop/Dossier_Perso/Github/GuessStar\" --key agents)"
+      "PowerShell($env:PYTHONIOENCODING=\"utf-8\"; python3 \"C:/Users/PC/Desktop/Dossier_Perso/Github/GuessStar/_bmad/scripts/resolve_config.py\" --project-root \"C:/Users/PC/Desktop/Dossier_Perso/Github/GuessStar\" --key agents)",
+      "Bash(Get-ChildItem C:\\\\Users\\\\PC\\\\Desktop\\\\Dossier_Perso\\\\Github\\\\GuessStar -Exclude \".claude\",\"_bmad\")",
+      "Bash(Select-Object Name, PSIsContainer)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\PC\\\\Desktop\\\\Dossier_Perso\\\\Github\\\\GuessStar\" | Where-Object { $_.Name -notmatch \"^\\\\.claude|^_bmad\" } | Format-Table Name, PSIsContainer)",
+      "PowerShell(npm *)"
     ]
   }
 }
