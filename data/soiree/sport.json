@@ -1,0 +1,232 @@
+[
+  {
+    "id": "sport_s_001",
+    "theme": "Sport",
+    "question": "Cite des Ballon d'Or remportés par Lionel Messi (énoncer les années)",
+    "items": [
+      {"name": "2009", "points": 1},
+      {"name": "2010", "points": 1},
+      {"name": "2011", "points": 1},
+      {"name": "2012", "points": 2},
+      {"name": "2019", "points": 2},
+      {"name": "2021", "points": 3},
+      {"name": "2023", "points": 3}
+    ],
+    "trap": {"name": "2015", "penalty": 5}
+  },
+  {
+    "id": "sport_s_002",
+    "theme": "Sport",
+    "question": "Cite des pays organisateurs de la Coupe du Monde FIFA depuis 1990",
+    "items": [
+      {"name": "Italie (1990)", "points": 2},
+      {"name": "États-Unis (1994)", "points": 1},
+      {"name": "France (1998)", "points": 1},
+      {"name": "Corée/Japon (2002)", "points": 2},
+      {"name": "Allemagne (2006)", "points": 1},
+      {"name": "Afrique du Sud (2010)", "points": 2},
+      {"name": "Brésil (2014)", "points": 1},
+      {"name": "Russie (2018)", "points": 2},
+      {"name": "Qatar (2022)", "points": 1}
+    ],
+    "trap": {"name": "Espagne (2010)", "penalty": 5}
+  },
+  {
+    "id": "sport_s_003",
+    "theme": "Sport",
+    "question": "Cite des clubs ayant remporté la Ligue des Champions plus de 3 fois",
+    "items": [
+      {"name": "Real Madrid", "points": 1},
+      {"name": "AC Milan", "points": 1},
+      {"name": "Bayern Munich", "points": 2},
+      {"name": "Liverpool", "points": 2},
+      {"name": "Barcelone", "points": 2},
+      {"name": "Ajax", "points": 3},
+      {"name": "Juventus", "points": 3},
+      {"name": "Benfica", "points": 4},
+      {"name": "Nottingham Forest", "points": 4}
+    ],
+    "trap": {"name": "Manchester United", "penalty": 5}
+  },
+  {
+    "id": "sport_s_004",
+    "theme": "Sport",
+    "question": "Cite des sports aux Jeux Olympiques d'été de Paris 2024",
+    "items": [
+      {"name": "Athlétisme", "points": 1},
+      {"name": "Natation", "points": 1},
+      {"name": "Gymnasique", "points": 1},
+      {"name": "Judo", "points": 1},
+      {"name": "Breaking (Breakdance)", "points": 2},
+      {"name": "Escalade sportive", "points": 2},
+      {"name": "Skateboard", "points": 2},
+      {"name": "Surf", "points": 2}
+    ],
+    "trap": {"name": "Karaté", "penalty": 5}
+  },
+  {
+    "id": "sport_s_005",
+    "theme": "Sport",
+    "question": "Cite des tennismen ayant remporté le plus de tournois du Grand Chelem (5+)",
+    "items": [
+      {"name": "Novak Djokovic", "points": 1},
+      {"name": "Rafael Nadal", "points": 1},
+      {"name": "Roger Federer", "points": 1},
+      {"name": "Pete Sampras", "points": 3},
+      {"name": "Steffi Graf", "points": 3},
+      {"name": "Serena Williams", "points": 2},
+      {"name": "Margaret Smith Court", "points": 4}
+    ],
+    "trap": {"name": "André Agassi", "penalty": 5}
+  },
+  {
+    "id": "sport_s_006",
+    "theme": "Sport",
+    "question": "Cite des équipes de France championnes du monde dans leur sport",
+    "items": [
+      {"name": "Football (1998)", "points": 1},
+      {"name": "Football (2018)", "points": 1},
+      {"name": "Handball (2021)", "points": 2},
+      {"name": "Rugby à XIII (2022)", "points": 3},
+      {"name": "Basket (2014 FIBA)", "points": 3},
+      {"name": "Judo (équipe 2023)", "points": 4}
+    ],
+    "trap": {"name": "Rugby à XV (2023)", "penalty": 5}
+  },
+  {
+    "id": "sport_s_007",
+    "theme": "Sport",
+    "question": "Cite des vainqueurs du Tour de France depuis 2010",
+    "items": [
+      {"name": "Andy Schleck (2010)", "points": 3},
+      {"name": "Cadel Evans (2011)", "points": 3},
+      {"name": "Chris Froome", "points": 2},
+      {"name": "Vincenzo Nibali", "points": 3},
+      {"name": "Geraint Thomas", "points": 3},
+      {"name": "Egan Bernal", "points": 3},
+      {"name": "Tadej Pogačar", "points": 2},
+      {"name": "Jonas Vingegaard", "points": 2}
+    ],
+    "trap": {"name": "Lance Armstrong", "penalty": 5}
+  },
+  {
+    "id": "sport_s_008",
+    "theme": "Sport",
+    "question": "Cite des pays ayant accueilli les Jeux Olympiques deux fois ou plus",
+    "items": [
+      {"name": "États-Unis", "points": 1},
+      {"name": "France", "points": 1},
+      {"name": "Royaume-Uni", "points": 2},
+      {"name": "Grèce", "points": 2},
+      {"name": "Allemagne", "points": 2},
+      {"name": "Australie", "points": 3},
+      {"name": "Japon", "points": 3}
+    ],
+    "trap": {"name": "Chine", "penalty": 5}
+  },
+  {
+    "id": "sport_s_009",
+    "theme": "Sport",
+    "question": "Cite des positions au football américain (NFL)",
+    "items": [
+      {"name": "Quarterback", "points": 1},
+      {"name": "Running Back", "points": 2},
+      {"name": "Wide Receiver", "points": 2},
+      {"name": "Linebacker", "points": 3},
+      {"name": "Tight End", "points": 3},
+      {"name": "Cornerback", "points": 3},
+      {"name": "Safety", "points": 4},
+      {"name": "Kicker", "points": 4}
+    ],
+    "trap": {"name": "Goalkeeper", "penalty": 5}
+  },
+  {
+    "id": "sport_s_010",
+    "theme": "Sport",
+    "question": "Cite des disciplines des sports d'hiver aux JO",
+    "items": [
+      {"name": "Ski alpin", "points": 1},
+      {"name": "Biathlon", "points": 1},
+      {"name": "Patinage artistique", "points": 1},
+      {"name": "Curling", "points": 2},
+      {"name": "Bobsleigh", "points": 2},
+      {"name": "Skeleton", "points": 3},
+      {"name": "Luge", "points": 2},
+      {"name": "Combiné nordique", "points": 4}
+    ],
+    "trap": {"name": "Snowboard cross-country", "penalty": 5}
+  },
+  {
+    "id": "sport_s_011",
+    "theme": "Sport",
+    "question": "Cite des joueurs de la NBA ayant remporté le plus de titres (5+)",
+    "items": [
+      {"name": "Bill Russell", "points": 2},
+      {"name": "Michael Jordan", "points": 1},
+      {"name": "LeBron James", "points": 1},
+      {"name": "Magic Johnson", "points": 2},
+      {"name": "Kareem Abdul-Jabbar", "points": 2},
+      {"name": "Robert Horry", "points": 4},
+      {"name": "Tim Duncan", "points": 2}
+    ],
+    "trap": {"name": "Kobe Bryant", "penalty": 5}
+  },
+  {
+    "id": "sport_s_012",
+    "theme": "Sport",
+    "question": "Cite des nations ayant remporté la Coupe du Monde de Rugby (Webb Ellis)",
+    "items": [
+      {"name": "Nouvelle-Zélande", "points": 1},
+      {"name": "Afrique du Sud", "points": 1},
+      {"name": "Australie", "points": 2},
+      {"name": "Angleterre", "points": 2},
+      {"name": "France", "points": 3}
+    ],
+    "trap": {"name": "Irlande", "penalty": 5}
+  },
+  {
+    "id": "sport_s_013",
+    "theme": "Sport",
+    "question": "Cite des épreuves du décathlon",
+    "items": [
+      {"name": "100 mètres", "points": 1},
+      {"name": "Saut en longueur", "points": 1},
+      {"name": "Lancer du poids", "points": 2},
+      {"name": "Saut en hauteur", "points": 2},
+      {"name": "400 mètres", "points": 2},
+      {"name": "110 mètres haies", "points": 3},
+      {"name": "Lancer du disque", "points": 3},
+      {"name": "Saut à la perche", "points": 3},
+      {"name": "Lancer du javelot", "points": 4},
+      {"name": "1500 mètres", "points": 4}
+    ],
+    "trap": {"name": "Triple saut", "penalty": 5}
+  },
+  {
+    "id": "sport_s_014",
+    "theme": "Sport",
+    "question": "Cite des équipes ayant remporté la Coupe du Monde FIFA",
+    "items": [
+      {"name": "Brésil", "points": 1},
+      {"name": "Allemagne", "points": 1},
+      {"name": "Italie", "points": 1},
+      {"name": "France", "points": 1},
+      {"name": "Argentine", "points": 1},
+      {"name": "Angleterre", "points": 2},
+      {"name": "Espagne", "points": 2},
+      {"name": "Uruguay", "points": 3}
+    ],
+    "trap": {"name": "Pays-Bas", "penalty": 5}
+  },
+  {
+    "id": "sport_s_015",
+    "theme": "Sport",
+    "question": "Cite des records du monde détenus par Usain Bolt",
+    "items": [
+      {"name": "100 mètres (9.58s)", "points": 1},
+      {"name": "200 mètres (19.19s)", "points": 2},
+      {"name": "4x100m avec la Jamaïque (36.84s)", "points": 3}
+    ],
+    "trap": {"name": "400 mètres", "penalty": 5}
+  }
+]

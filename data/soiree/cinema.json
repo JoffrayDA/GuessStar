@@ -1,0 +1,241 @@
+[
+  {
+    "id": "cinema_s_001",
+    "theme": "Cinéma",
+    "question": "Cite des films de la saga Marvel MCU Phase 1",
+    "items": [
+      {"name": "Iron Man", "points": 1},
+      {"name": "L'Incroyable Hulk", "points": 2},
+      {"name": "Iron Man 2", "points": 2},
+      {"name": "Thor", "points": 2},
+      {"name": "Captain America: First Avenger", "points": 2},
+      {"name": "Avengers", "points": 1}
+    ],
+    "trap": {"name": "Gardiens de la Galaxie", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_002",
+    "theme": "Cinéma",
+    "question": "Cite des films réalisés par Christopher Nolan",
+    "items": [
+      {"name": "Inception", "points": 1},
+      {"name": "Interstellar", "points": 1},
+      {"name": "The Dark Knight", "points": 1},
+      {"name": "Dunkerque", "points": 2},
+      {"name": "Memento", "points": 3},
+      {"name": "Tenet", "points": 2},
+      {"name": "Oppenheimer", "points": 1},
+      {"name": "The Prestige", "points": 3}
+    ],
+    "trap": {"name": "Gravity", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_003",
+    "theme": "Cinéma",
+    "question": "Cite des films ayant remporté l'Oscar du Meilleur Film depuis 2010",
+    "items": [
+      {"name": "The Artist (2012)", "points": 2},
+      {"name": "Argo (2013)", "points": 2},
+      {"name": "12 Years a Slave (2014)", "points": 3},
+      {"name": "Birdman (2015)", "points": 3},
+      {"name": "Spotlight (2016)", "points": 3},
+      {"name": "Moonlight (2017)", "points": 3},
+      {"name": "Green Book (2019)", "points": 3},
+      {"name": "Parasite (2020)", "points": 2},
+      {"name": "CODA (2022)", "points": 3}
+    ],
+    "trap": {"name": "Avatar (2010)", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_004",
+    "theme": "Cinéma",
+    "question": "Cite des acteurs ayant joué James Bond (007)",
+    "items": [
+      {"name": "Sean Connery", "points": 1},
+      {"name": "Roger Moore", "points": 2},
+      {"name": "Pierce Brosnan", "points": 1},
+      {"name": "Daniel Craig", "points": 1},
+      {"name": "Timothy Dalton", "points": 3},
+      {"name": "George Lazenby", "points": 4}
+    ],
+    "trap": {"name": "Idris Elba", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_005",
+    "theme": "Cinéma",
+    "question": "Cite des films de la saga Star Wars (films principaux)",
+    "items": [
+      {"name": "Un Nouvel Espoir", "points": 1},
+      {"name": "L'Empire contre-attaque", "points": 1},
+      {"name": "Le Retour du Jedi", "points": 1},
+      {"name": "La Menace Fantôme", "points": 2},
+      {"name": "L'Attaque des Clones", "points": 2},
+      {"name": "La Revanche des Sith", "points": 2},
+      {"name": "Le Réveil de la Force", "points": 1},
+      {"name": "Les Derniers Jedi", "points": 2},
+      {"name": "L'Ascension de Skywalker", "points": 2}
+    ],
+    "trap": {"name": "Rogue One", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_006",
+    "theme": "Cinéma",
+    "question": "Cite des films d'animation Pixar",
+    "items": [
+      {"name": "Toy Story", "points": 1},
+      {"name": "Le Monde de Nemo", "points": 1},
+      {"name": "Ratatouille", "points": 1},
+      {"name": "WALL-E", "points": 2},
+      {"name": "Vice-Versa", "points": 2},
+      {"name": "Coco", "points": 2},
+      {"name": "Soul", "points": 2},
+      {"name": "Brave", "points": 3},
+      {"name": "En Avant", "points": 3}
+    ],
+    "trap": {"name": "Moana", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_007",
+    "theme": "Cinéma",
+    "question": "Cite des films faisant partie de la saga Harry Potter",
+    "items": [
+      {"name": "L'École des Sorciers", "points": 1},
+      {"name": "La Chambre des Secrets", "points": 1},
+      {"name": "Le Prisonnier d'Azkaban", "points": 1},
+      {"name": "La Coupe de Feu", "points": 1},
+      {"name": "L'Ordre du Phénix", "points": 2},
+      {"name": "Le Prince de Sang-Mêlé", "points": 2},
+      {"name": "Les Reliques de la Mort Partie 1", "points": 2},
+      {"name": "Les Reliques de la Mort Partie 2", "points": 2}
+    ],
+    "trap": {"name": "Les Animaux Fantastiques", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_008",
+    "theme": "Cinéma",
+    "question": "Cite des films au box-office mondial ayant dépassé 2 milliards $",
+    "items": [
+      {"name": "Avatar", "points": 1},
+      {"name": "Avengers: Endgame", "points": 1},
+      {"name": "Titanic", "points": 1},
+      {"name": "Star Wars: Le Réveil de la Force", "points": 2},
+      {"name": "Avengers: Infinity War", "points": 2},
+      {"name": "Spider-Man: No Way Home", "points": 2},
+      {"name": "Jurassic World", "points": 3},
+      {"name": "The Lion King (2019)", "points": 3}
+    ],
+    "trap": {"name": "Black Panther", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_009",
+    "theme": "Cinéma",
+    "question": "Cite des réalisateurs français reconnus internationalement",
+    "items": [
+      {"name": "Luc Besson", "points": 1},
+      {"name": "Jean-Luc Godard", "points": 2},
+      {"name": "François Truffaut", "points": 2},
+      {"name": "Jacques Audiard", "points": 3},
+      {"name": "Michel Gondry", "points": 3},
+      {"name": "Mathieu Kassovitz", "points": 2},
+      {"name": "Xavier Dolan", "points": 3}
+    ],
+    "trap": {"name": "Claude Lelouch", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_010",
+    "theme": "Cinéma",
+    "question": "Cite des films avec Leonardo DiCaprio en tant qu'acteur principal",
+    "items": [
+      {"name": "Titanic", "points": 1},
+      {"name": "Inception", "points": 1},
+      {"name": "Le Loup de Wall Street", "points": 1},
+      {"name": "Django Unchained", "points": 2},
+      {"name": "The Revenant", "points": 2},
+      {"name": "Shutter Island", "points": 2},
+      {"name": "Aviator", "points": 3},
+      {"name": "Killers of the Flower Moon", "points": 2}
+    ],
+    "trap": {"name": "Fight Club", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_011",
+    "theme": "Cinéma",
+    "question": "Cite des films de Tim Burton",
+    "items": [
+      {"name": "Beetlejuice", "points": 1},
+      {"name": "Edward aux mains d'argent", "points": 2},
+      {"name": "Batman (1989)", "points": 2},
+      {"name": "Sleepy Hollow", "points": 2},
+      {"name": "Big Fish", "points": 3},
+      {"name": "Sweeney Todd", "points": 3},
+      {"name": "Alice au Pays des Merveilles", "points": 2},
+      {"name": "Big Eyes", "points": 4}
+    ],
+    "trap": {"name": "Coraline", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_012",
+    "theme": "Cinéma",
+    "question": "Cite des acteurs ayant joué un super-héros Marvel au cinéma",
+    "items": [
+      {"name": "Robert Downey Jr. (Iron Man)", "points": 1},
+      {"name": "Chris Evans (Captain America)", "points": 1},
+      {"name": "Scarlett Johansson (Black Widow)", "points": 1},
+      {"name": "Chadwick Boseman (Black Panther)", "points": 2},
+      {"name": "Brie Larson (Captain Marvel)", "points": 2},
+      {"name": "Paul Rudd (Ant-Man)", "points": 2},
+      {"name": "Benedict Cumberbatch (Dr Strange)", "points": 2},
+      {"name": "Tom Holland (Spider-Man)", "points": 1}
+    ],
+    "trap": {"name": "Christian Bale (Batman)", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_013",
+    "theme": "Cinéma",
+    "question": "Cite des films du Studio Ghibli",
+    "items": [
+      {"name": "Mon Voisin Totoro", "points": 1},
+      {"name": "Le Voyage de Chihiro", "points": 1},
+      {"name": "Princesse Mononoké", "points": 2},
+      {"name": "Porco Rosso", "points": 2},
+      {"name": "Le Château Ambulant", "points": 2},
+      {"name": "Nausicaä", "points": 3},
+      {"name": "Le Vent se Lève", "points": 3},
+      {"name": "La Colline aux Coquelicots", "points": 4}
+    ],
+    "trap": {"name": "Your Name", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_014",
+    "theme": "Cinéma",
+    "question": "Cite des films avec Tom Hanks en tant qu'acteur principal",
+    "items": [
+      {"name": "Forrest Gump", "points": 1},
+      {"name": "Cast Away", "points": 1},
+      {"name": "Philadelphia", "points": 2},
+      {"name": "Il faut sauver le soldat Ryan", "points": 2},
+      {"name": "Le Terminal", "points": 2},
+      {"name": "The Da Vinci Code", "points": 2},
+      {"name": "Captain Phillips", "points": 3},
+      {"name": "Seul sur Mars", "points": 3}
+    ],
+    "trap": {"name": "Gladiator", "penalty": 5}
+  },
+  {
+    "id": "cinema_s_015",
+    "theme": "Cinéma",
+    "question": "Cite des films de la saga Fast & Furious (numérotés)",
+    "items": [
+      {"name": "Fast and Furious", "points": 1},
+      {"name": "2 Fast 2 Furious", "points": 1},
+      {"name": "Fast & Furious: Tokyo Drift", "points": 2},
+      {"name": "Fast & Furious 4", "points": 2},
+      {"name": "Fast Five", "points": 2},
+      {"name": "Fast & Furious 6", "points": 2},
+      {"name": "Furious 7", "points": 2},
+      {"name": "Fast 8", "points": 3},
+      {"name": "F9", "points": 3}
+    ],
+    "trap": {"name": "Hobbs & Shaw", "penalty": 5}
+  }
+]

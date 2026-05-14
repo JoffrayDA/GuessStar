@@ -1,0 +1,234 @@
+[
+  {
+    "id": "histoire_s_001",
+    "theme": "Histoire",
+    "question": "Cite des pays membres des Alliés lors de la Seconde Guerre mondiale",
+    "items": [
+      {"name": "États-Unis", "points": 1},
+      {"name": "Royaume-Uni", "points": 1},
+      {"name": "URSS", "points": 1},
+      {"name": "France", "points": 1},
+      {"name": "Chine", "points": 2},
+      {"name": "Canada", "points": 2},
+      {"name": "Australie", "points": 2},
+      {"name": "Pologne", "points": 3}
+    ],
+    "trap": {"name": "Italie", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_002",
+    "theme": "Histoire",
+    "question": "Cite des présidents de la Ve République française",
+    "items": [
+      {"name": "De Gaulle", "points": 1},
+      {"name": "Pompidou", "points": 2},
+      {"name": "Giscard d'Estaing", "points": 2},
+      {"name": "Mitterrand", "points": 1},
+      {"name": "Chirac", "points": 1},
+      {"name": "Sarkozy", "points": 1},
+      {"name": "Hollande", "points": 1},
+      {"name": "Macron", "points": 1}
+    ],
+    "trap": {"name": "Mendès France", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_003",
+    "theme": "Histoire",
+    "question": "Cite des empereurs romains célèbres",
+    "items": [
+      {"name": "Auguste", "points": 1},
+      {"name": "Néron", "points": 1},
+      {"name": "Caligula", "points": 2},
+      {"name": "Trajan", "points": 3},
+      {"name": "Marc Aurèle", "points": 3},
+      {"name": "Dioclétien", "points": 4},
+      {"name": "Constantin", "points": 3},
+      {"name": "Hadrien", "points": 3}
+    ],
+    "trap": {"name": "Alexandre le Grand", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_004",
+    "theme": "Histoire",
+    "question": "Cite des pays de l'Axe lors de la Seconde Guerre mondiale",
+    "items": [
+      {"name": "Allemagne", "points": 1},
+      {"name": "Italie", "points": 1},
+      {"name": "Japon", "points": 1},
+      {"name": "Hongrie", "points": 3},
+      {"name": "Roumanie", "points": 3},
+      {"name": "Bulgarie", "points": 4},
+      {"name": "Finlande", "points": 4}
+    ],
+    "trap": {"name": "Espagne", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_005",
+    "theme": "Histoire",
+    "question": "Cite des pharaons de l'Égypte antique",
+    "items": [
+      {"name": "Ramsès II", "points": 1},
+      {"name": "Toutankhamon", "points": 1},
+      {"name": "Cléopâtre", "points": 1},
+      {"name": "Akhenaton", "points": 3},
+      {"name": "Thoutmosis III", "points": 4},
+      {"name": "Kheops", "points": 2},
+      {"name": "Senenmout", "points": 5}
+    ],
+    "trap": {"name": "Nabuchodonosor", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_006",
+    "theme": "Histoire",
+    "question": "Cite des batailles napoléoniennes célèbres",
+    "items": [
+      {"name": "Austerlitz", "points": 1},
+      {"name": "Waterloo", "points": 1},
+      {"name": "Iéna", "points": 3},
+      {"name": "Trafalgar", "points": 2},
+      {"name": "Borodino", "points": 3},
+      {"name": "Wagram", "points": 4},
+      {"name": "Marengo", "points": 4}
+    ],
+    "trap": {"name": "Verdun", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_007",
+    "theme": "Histoire",
+    "question": "Cite des présidents des États-Unis depuis 1980",
+    "items": [
+      {"name": "Ronald Reagan", "points": 1},
+      {"name": "George H.W. Bush", "points": 2},
+      {"name": "Bill Clinton", "points": 1},
+      {"name": "George W. Bush", "points": 1},
+      {"name": "Barack Obama", "points": 1},
+      {"name": "Donald Trump", "points": 1},
+      {"name": "Joe Biden", "points": 1}
+    ],
+    "trap": {"name": "Jimmy Carter", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_008",
+    "theme": "Histoire",
+    "question": "Cite des pays qui ont déclaré leur indépendance au XXe siècle",
+    "items": [
+      {"name": "Inde (1947)", "points": 1},
+      {"name": "Israël (1948)", "points": 2},
+      {"name": "Algérie (1962)", "points": 1},
+      {"name": "Bangladesh (1971)", "points": 2},
+      {"name": "Zimbabwe (1980)", "points": 3},
+      {"name": "Érythrée (1993)", "points": 4},
+      {"name": "Timor oriental (2002)", "points": 4}
+    ],
+    "trap": {"name": "Brésil", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_009",
+    "theme": "Histoire",
+    "question": "Cite des rois de France célèbres",
+    "items": [
+      {"name": "Louis XIV", "points": 1},
+      {"name": "Louis XVI", "points": 1},
+      {"name": "Charlemagne", "points": 1},
+      {"name": "François Ier", "points": 2},
+      {"name": "Henri IV", "points": 2},
+      {"name": "Louis XI", "points": 3},
+      {"name": "Clovis", "points": 3},
+      {"name": "Philippe Auguste", "points": 4}
+    ],
+    "trap": {"name": "Napoléon Bonaparte", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_010",
+    "theme": "Histoire",
+    "question": "Cite des événements marquants de la guerre froide",
+    "items": [
+      {"name": "Crise de Cuba (1962)", "points": 2},
+      {"name": "Mur de Berlin", "points": 1},
+      {"name": "Course à la Lune", "points": 1},
+      {"name": "Guerre de Corée", "points": 2},
+      {"name": "Guerre du Vietnam", "points": 1},
+      {"name": "Plan Marshall", "points": 3},
+      {"name": "Chute de l'URSS (1991)", "points": 1},
+      {"name": "Blocus de Berlin (1948)", "points": 3}
+    ],
+    "trap": {"name": "Première Guerre mondiale", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_011",
+    "theme": "Histoire",
+    "question": "Cite des grandes inventions du XIXe siècle",
+    "items": [
+      {"name": "Téléphone (Bell, 1876)", "points": 1},
+      {"name": "Ampoule électrique (Edison, 1879)", "points": 1},
+      {"name": "Photographie", "points": 2},
+      {"name": "Locomotive à vapeur", "points": 2},
+      {"name": "Dynamite (Nobel)", "points": 2},
+      {"name": "Vaccin antirabique (Pasteur)", "points": 3},
+      {"name": "Moteur à explosion", "points": 3}
+    ],
+    "trap": {"name": "Internet", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_012",
+    "theme": "Histoire",
+    "question": "Cite des sites classés au patrimoine mondial de l'UNESCO en France",
+    "items": [
+      {"name": "Mont-Saint-Michel", "points": 1},
+      {"name": "Versailles", "points": 1},
+      {"name": "Carcassonne", "points": 2},
+      {"name": "Pont du Gard", "points": 2},
+      {"name": "Val de Loire", "points": 2},
+      {"name": "Vézelay", "points": 4},
+      {"name": "Havre (Le Corbusier)", "points": 4}
+    ],
+    "trap": {"name": "Tour Eiffel", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_013",
+    "theme": "Histoire",
+    "question": "Cite des pays qui ont fait partie de l'Empire ottoman",
+    "items": [
+      {"name": "Turquie", "points": 1},
+      {"name": "Grèce", "points": 2},
+      {"name": "Égypte", "points": 2},
+      {"name": "Irak", "points": 2},
+      {"name": "Syrie", "points": 2},
+      {"name": "Bulgarie", "points": 3},
+      {"name": "Algérie", "points": 3},
+      {"name": "Yémen", "points": 4}
+    ],
+    "trap": {"name": "Iran", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_014",
+    "theme": "Histoire",
+    "question": "Cite des prix Nobel de la Paix emblématiques",
+    "items": [
+      {"name": "Nelson Mandela", "points": 1},
+      {"name": "Martin Luther King", "points": 1},
+      {"name": "Mère Teresa", "points": 1},
+      {"name": "Malala Yousafzai", "points": 2},
+      {"name": "Barack Obama", "points": 2},
+      {"name": "Aung San Suu Kyi", "points": 3},
+      {"name": "Mikhail Gorbatchev", "points": 3},
+      {"name": "Wangari Maathai", "points": 5}
+    ],
+    "trap": {"name": "Albert Einstein", "penalty": 5}
+  },
+  {
+    "id": "histoire_s_015",
+    "theme": "Histoire",
+    "question": "Cite des révolutions majeures de l'histoire moderne",
+    "items": [
+      {"name": "Révolution française (1789)", "points": 1},
+      {"name": "Révolution américaine (1776)", "points": 2},
+      {"name": "Révolution russe (1917)", "points": 2},
+      {"name": "Révolution haïtienne (1804)", "points": 3},
+      {"name": "Révolution culturelle chinoise", "points": 3},
+      {"name": "Révolution iranienne (1979)", "points": 3},
+      {"name": "Révolution cubaine (1959)", "points": 4}
+    ],
+    "trap": {"name": "Mai 68", "penalty": 5}
+  }
+]

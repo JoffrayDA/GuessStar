@@ -1,0 +1,246 @@
+[
+  {
+    "id": "geo_s_001",
+    "theme": "Géographie",
+    "question": "Cite des pays d'Amérique du Sud",
+    "items": [
+      {"name": "Brésil", "points": 1},
+      {"name": "Argentine", "points": 1},
+      {"name": "Colombie", "points": 2},
+      {"name": "Pérou", "points": 2},
+      {"name": "Venezuela", "points": 2},
+      {"name": "Chili", "points": 2},
+      {"name": "Équateur", "points": 3},
+      {"name": "Bolivie", "points": 3},
+      {"name": "Paraguay", "points": 4},
+      {"name": "Uruguay", "points": 4}
+    ],
+    "trap": {"name": "Mexique", "penalty": 5}
+  },
+  {
+    "id": "geo_s_002",
+    "theme": "Géographie",
+    "question": "Cite des capitales européennes",
+    "items": [
+      {"name": "Paris", "points": 1},
+      {"name": "Berlin", "points": 1},
+      {"name": "Madrid", "points": 1},
+      {"name": "Rome", "points": 1},
+      {"name": "Amsterdam", "points": 2},
+      {"name": "Varsovie", "points": 2},
+      {"name": "Stockholm", "points": 3},
+      {"name": "Bucarest", "points": 4},
+      {"name": "Ljubljana", "points": 5}
+    ],
+    "trap": {"name": "Sydney", "penalty": 5}
+  },
+  {
+    "id": "geo_s_003",
+    "theme": "Géographie",
+    "question": "Cite des pays qui bordent la Méditerranée",
+    "items": [
+      {"name": "France", "points": 1},
+      {"name": "Espagne", "points": 1},
+      {"name": "Italie", "points": 1},
+      {"name": "Grèce", "points": 1},
+      {"name": "Maroc", "points": 2},
+      {"name": "Turquie", "points": 2},
+      {"name": "Algérie", "points": 2},
+      {"name": "Liban", "points": 3},
+      {"name": "Slovénie", "points": 4}
+    ],
+    "trap": {"name": "Portugal", "penalty": 5}
+  },
+  {
+    "id": "geo_s_004",
+    "theme": "Géographie",
+    "question": "Cite des pays d'Afrique de l'Ouest",
+    "items": [
+      {"name": "Sénégal", "points": 1},
+      {"name": "Côte d'Ivoire", "points": 1},
+      {"name": "Ghana", "points": 2},
+      {"name": "Mali", "points": 2},
+      {"name": "Burkina Faso", "points": 3},
+      {"name": "Guinée", "points": 3},
+      {"name": "Togo", "points": 3},
+      {"name": "Bénin", "points": 4},
+      {"name": "Sierra Leone", "points": 4}
+    ],
+    "trap": {"name": "Cameroun", "penalty": 5}
+  },
+  {
+    "id": "geo_s_005",
+    "theme": "Géographie",
+    "question": "Cite des fleuves d'Europe",
+    "items": [
+      {"name": "Danube", "points": 1},
+      {"name": "Rhin", "points": 1},
+      {"name": "Tamise", "points": 2},
+      {"name": "Volga", "points": 2},
+      {"name": "Loire", "points": 2},
+      {"name": "Elbe", "points": 3},
+      {"name": "Vistule", "points": 4},
+      {"name": "Dniepr", "points": 4},
+      {"name": "Tage", "points": 4}
+    ],
+    "trap": {"name": "Nil", "penalty": 5}
+  },
+  {
+    "id": "geo_s_006",
+    "theme": "Géographie",
+    "question": "Cite des îles françaises d'outre-mer",
+    "items": [
+      {"name": "Martinique", "points": 1},
+      {"name": "Guadeloupe", "points": 1},
+      {"name": "La Réunion", "points": 1},
+      {"name": "Mayotte", "points": 2},
+      {"name": "Saint-Martin", "points": 3},
+      {"name": "Saint-Barthélemy", "points": 3},
+      {"name": "Wallis-et-Futuna", "points": 4},
+      {"name": "Polynésie française", "points": 3}
+    ],
+    "trap": {"name": "Corse", "penalty": 5}
+  },
+  {
+    "id": "geo_s_007",
+    "theme": "Géographie",
+    "question": "Cite des pays qui partagent une frontière avec la France",
+    "items": [
+      {"name": "Espagne", "points": 1},
+      {"name": "Italie", "points": 1},
+      {"name": "Allemagne", "points": 1},
+      {"name": "Suisse", "points": 1},
+      {"name": "Belgique", "points": 1},
+      {"name": "Luxembourg", "points": 2},
+      {"name": "Andorre", "points": 3},
+      {"name": "Monaco", "points": 3}
+    ],
+    "trap": {"name": "Portugal", "penalty": 5}
+  },
+  {
+    "id": "geo_s_008",
+    "theme": "Géographie",
+    "question": "Cite des pays d'Asie du Sud-Est",
+    "items": [
+      {"name": "Thaïlande", "points": 1},
+      {"name": "Vietnam", "points": 1},
+      {"name": "Indonésie", "points": 2},
+      {"name": "Philippines", "points": 2},
+      {"name": "Malaisie", "points": 2},
+      {"name": "Cambodge", "points": 3},
+      {"name": "Myanmar", "points": 3},
+      {"name": "Laos", "points": 4},
+      {"name": "Timor oriental", "points": 5}
+    ],
+    "trap": {"name": "Inde", "penalty": 5}
+  },
+  {
+    "id": "geo_s_009",
+    "theme": "Géographie",
+    "question": "Cite des pays sans accès à la mer (enclavés) en Europe",
+    "items": [
+      {"name": "Suisse", "points": 2},
+      {"name": "Autriche", "points": 2},
+      {"name": "Luxembourg", "points": 2},
+      {"name": "Hongrie", "points": 3},
+      {"name": "République tchèque", "points": 3},
+      {"name": "Slovaquie", "points": 4},
+      {"name": "Serbie", "points": 4},
+      {"name": "Kosovo", "points": 5}
+    ],
+    "trap": {"name": "Belgique", "penalty": 5}
+  },
+  {
+    "id": "geo_s_010",
+    "theme": "Géographie",
+    "question": "Cite des sommets les plus hauts du monde (8000m+)",
+    "items": [
+      {"name": "Everest", "points": 1},
+      {"name": "K2", "points": 2},
+      {"name": "Kangchenjunga", "points": 3},
+      {"name": "Lhotse", "points": 3},
+      {"name": "Makalu", "points": 4},
+      {"name": "Cho Oyu", "points": 4},
+      {"name": "Dhaulagiri", "points": 5},
+      {"name": "Manaslu", "points": 5}
+    ],
+    "trap": {"name": "Mont Blanc", "penalty": 5}
+  },
+  {
+    "id": "geo_s_011",
+    "theme": "Géographie",
+    "question": "Cite des pays membres fondateurs de l'Union Européenne",
+    "items": [
+      {"name": "France", "points": 1},
+      {"name": "Allemagne", "points": 1},
+      {"name": "Italie", "points": 1},
+      {"name": "Belgique", "points": 2},
+      {"name": "Pays-Bas", "points": 2},
+      {"name": "Luxembourg", "points": 3}
+    ],
+    "trap": {"name": "Espagne", "penalty": 5}
+  },
+  {
+    "id": "geo_s_012",
+    "theme": "Géographie",
+    "question": "Cite des pays d'Afrique du Nord",
+    "items": [
+      {"name": "Maroc", "points": 1},
+      {"name": "Algérie", "points": 1},
+      {"name": "Tunisie", "points": 1},
+      {"name": "Libye", "points": 2},
+      {"name": "Égypte", "points": 2},
+      {"name": "Mauritanie", "points": 3}
+    ],
+    "trap": {"name": "Éthiopie", "penalty": 5}
+  },
+  {
+    "id": "geo_s_013",
+    "theme": "Géographie",
+    "question": "Cite des pays qui traversent l'équateur",
+    "items": [
+      {"name": "Brésil", "points": 1},
+      {"name": "Indonésie", "points": 2},
+      {"name": "Kenya", "points": 2},
+      {"name": "Équateur", "points": 2},
+      {"name": "Colombie", "points": 3},
+      {"name": "Congo", "points": 3},
+      {"name": "Ouganda", "points": 4},
+      {"name": "Gabon", "points": 4}
+    ],
+    "trap": {"name": "Pérou", "penalty": 5}
+  },
+  {
+    "id": "geo_s_014",
+    "theme": "Géographie",
+    "question": "Cite des grandes déserts du monde",
+    "items": [
+      {"name": "Sahara", "points": 1},
+      {"name": "Gobi", "points": 1},
+      {"name": "Atacama", "points": 2},
+      {"name": "Désert d'Arabie", "points": 2},
+      {"name": "Grand Désert de Victoria", "points": 3},
+      {"name": "Kalahari", "points": 3},
+      {"name": "Namib", "points": 4},
+      {"name": "Patagonie", "points": 4}
+    ],
+    "trap": {"name": "Amazonie", "penalty": 5}
+  },
+  {
+    "id": "geo_s_015",
+    "theme": "Géographie",
+    "question": "Cite des villes françaises de plus de 300 000 habitants",
+    "items": [
+      {"name": "Paris", "points": 1},
+      {"name": "Marseille", "points": 1},
+      {"name": "Lyon", "points": 1},
+      {"name": "Toulouse", "points": 2},
+      {"name": "Nice", "points": 2},
+      {"name": "Nantes", "points": 2},
+      {"name": "Montpellier", "points": 3},
+      {"name": "Strasbourg", "points": 3},
+      {"name": "Bordeaux", "points": 3}
+    ],
+    "trap": {"name": "Dijon", "penalty": 5}
+  }
+]

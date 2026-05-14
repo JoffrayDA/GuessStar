@@ -1,0 +1,238 @@
+[
+  {
+    "id": "cuisine_s_001",
+    "theme": "Cuisine",
+    "question": "Cite des fromages français à pâte molle",
+    "items": [
+      {"name": "Camembert", "points": 1},
+      {"name": "Brie", "points": 1},
+      {"name": "Coulommiers", "points": 3},
+      {"name": "Chaource", "points": 4},
+      {"name": "Époisses", "points": 4},
+      {"name": "Munster", "points": 3},
+      {"name": "Livarot", "points": 4},
+      {"name": "Pont-l'Évêque", "points": 4}
+    ],
+    "trap": {"name": "Comté", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_002",
+    "theme": "Cuisine",
+    "question": "Cite des épices utilisées dans le curry indien",
+    "items": [
+      {"name": "Curcuma", "points": 1},
+      {"name": "Cumin", "points": 1},
+      {"name": "Coriandre", "points": 2},
+      {"name": "Cardamome", "points": 2},
+      {"name": "Fenugrec", "points": 3},
+      {"name": "Fenouil", "points": 3},
+      {"name": "Gingembre", "points": 2},
+      {"name": "Poivre noir", "points": 2}
+    ],
+    "trap": {"name": "Basilic", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_003",
+    "theme": "Cuisine",
+    "question": "Cite des ingrédients d'une bouillabaisse marseillaise traditionnelle",
+    "items": [
+      {"name": "Rascasse", "points": 2},
+      {"name": "Safran", "points": 1},
+      {"name": "Fenouil", "points": 2},
+      {"name": "Tomates", "points": 1},
+      {"name": "Ail", "points": 1},
+      {"name": "Huile d'olive", "points": 1},
+      {"name": "Congre", "points": 3},
+      {"name": "Grondins", "points": 4}
+    ],
+    "trap": {"name": "Homard", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_004",
+    "theme": "Cuisine",
+    "question": "Cite des sauces mères de la cuisine française",
+    "items": [
+      {"name": "Béchamel", "points": 1},
+      {"name": "Velouté", "points": 2},
+      {"name": "Espagnole", "points": 3},
+      {"name": "Hollandaise", "points": 2},
+      {"name": "Tomate", "points": 1}
+    ],
+    "trap": {"name": "Mayonnaise", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_005",
+    "theme": "Cuisine",
+    "question": "Cite des plats traditionnels italiens",
+    "items": [
+      {"name": "Carbonara", "points": 1},
+      {"name": "Osso buco", "points": 2},
+      {"name": "Risotto", "points": 1},
+      {"name": "Tiramisu", "points": 1},
+      {"name": "Saltimbocca", "points": 3},
+      {"name": "Bistecca alla fiorentina", "points": 3},
+      {"name": "Arancini", "points": 3},
+      {"name": "Panzanella", "points": 4}
+    ],
+    "trap": {"name": "Paella", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_006",
+    "theme": "Cuisine",
+    "question": "Cite des herbes aromatiques utilisées en cuisine",
+    "items": [
+      {"name": "Basilic", "points": 1},
+      {"name": "Persil", "points": 1},
+      {"name": "Coriandre", "points": 1},
+      {"name": "Thym", "points": 1},
+      {"name": "Estragon", "points": 3},
+      {"name": "Ciboulette", "points": 2},
+      {"name": "Sarriette", "points": 4},
+      {"name": "Cerfeuil", "points": 4}
+    ],
+    "trap": {"name": "Laurier", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_007",
+    "theme": "Cuisine",
+    "question": "Cite des ingrédients d'un guacamole traditionnel",
+    "items": [
+      {"name": "Avocat", "points": 1},
+      {"name": "Citron vert", "points": 1},
+      {"name": "Oignon", "points": 1},
+      {"name": "Coriandre", "points": 1},
+      {"name": "Piment jalapeño", "points": 2},
+      {"name": "Tomate", "points": 2},
+      {"name": "Sel", "points": 1},
+      {"name": "Ail", "points": 2}
+    ],
+    "trap": {"name": "Crème fraîche", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_008",
+    "theme": "Cuisine",
+    "question": "Cite des cépages utilisés pour faire du vin rouge",
+    "items": [
+      {"name": "Cabernet Sauvignon", "points": 1},
+      {"name": "Merlot", "points": 1},
+      {"name": "Pinot Noir", "points": 2},
+      {"name": "Syrah", "points": 2},
+      {"name": "Grenache", "points": 3},
+      {"name": "Malbec", "points": 3},
+      {"name": "Nebbiolo", "points": 4},
+      {"name": "Tempranillo", "points": 4}
+    ],
+    "trap": {"name": "Chardonnay", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_009",
+    "theme": "Cuisine",
+    "question": "Cite des desserts français emblématiques",
+    "items": [
+      {"name": "Crème brûlée", "points": 1},
+      {"name": "Tarte Tatin", "points": 1},
+      {"name": "Madeleine", "points": 1},
+      {"name": "Île flottante", "points": 2},
+      {"name": "Paris-Brest", "points": 2},
+      {"name": "Clafoutis", "points": 2},
+      {"name": "Far breton", "points": 3},
+      {"name": "Kouign-amann", "points": 4}
+    ],
+    "trap": {"name": "Tiramisu", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_010",
+    "theme": "Cuisine",
+    "question": "Cite des plats typiques de la cuisine japonaise",
+    "items": [
+      {"name": "Sushi", "points": 1},
+      {"name": "Ramen", "points": 1},
+      {"name": "Tempura", "points": 2},
+      {"name": "Tonkatsu", "points": 2},
+      {"name": "Okonomiyaki", "points": 3},
+      {"name": "Takoyaki", "points": 3},
+      {"name": "Yakitori", "points": 2},
+      {"name": "Onigiri", "points": 2}
+    ],
+    "trap": {"name": "Bibimbap", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_011",
+    "theme": "Cuisine",
+    "question": "Cite des couteaux utilisés en cuisine professionnelle",
+    "items": [
+      {"name": "Couteau chef", "points": 1},
+      {"name": "Couteau d'office", "points": 1},
+      {"name": "Couteau à pain", "points": 1},
+      {"name": "Couteau désosseur", "points": 3},
+      {"name": "Couteau santoku", "points": 3},
+      {"name": "Couteau à filet de sole", "points": 3},
+      {"name": "Couteau tournette", "points": 4}
+    ],
+    "trap": {"name": "Couteau suisse", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_012",
+    "theme": "Cuisine",
+    "question": "Cite des ingrédients du pad thaï traditionnel",
+    "items": [
+      {"name": "Nouilles de riz", "points": 1},
+      {"name": "Sauce de poisson", "points": 1},
+      {"name": "Cacahuètes", "points": 1},
+      {"name": "Oeuf", "points": 1},
+      {"name": "Crevettes", "points": 2},
+      {"name": "Sauce tamarin", "points": 2},
+      {"name": "Pousses de soja", "points": 2},
+      {"name": "Ciboulette thaï", "points": 4}
+    ],
+    "trap": {"name": "Lait de coco", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_013",
+    "theme": "Cuisine",
+    "question": "Cite des régions françaises connues pour leur gastronomie",
+    "items": [
+      {"name": "Bordeaux (vins)", "points": 1},
+      {"name": "Normandie (fromages, crème)", "points": 1},
+      {"name": "Bretagne (crêpes, fruits de mer)", "points": 1},
+      {"name": "Lyon (bouchons)", "points": 1},
+      {"name": "Alsace (choucroute, bredele)", "points": 2},
+      {"name": "Périgord (foie gras, truffe)", "points": 2},
+      {"name": "Pays Basque (jambon, piment)", "points": 2},
+      {"name": "Provence (tapenade, aïoli)", "points": 2}
+    ],
+    "trap": {"name": "Corse (charcuterie)", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_014",
+    "theme": "Cuisine",
+    "question": "Cite des légumineuses couramment utilisées en cuisine",
+    "items": [
+      {"name": "Lentilles", "points": 1},
+      {"name": "Pois chiches", "points": 1},
+      {"name": "Haricots rouges", "points": 1},
+      {"name": "Flageolets", "points": 2},
+      {"name": "Azukis", "points": 3},
+      {"name": "Lupins", "points": 4},
+      {"name": "Fèves", "points": 2},
+      {"name": "Haricots mungo", "points": 4}
+    ],
+    "trap": {"name": "Cacahuètes", "penalty": 5}
+  },
+  {
+    "id": "cuisine_s_015",
+    "theme": "Cuisine",
+    "question": "Cite des techniques de cuisson utilisées en cuisine",
+    "items": [
+      {"name": "Rôtir", "points": 1},
+      {"name": "Braiser", "points": 2},
+      {"name": "Pocher", "points": 2},
+      {"name": "Sauter", "points": 1},
+      {"name": "Blanchir", "points": 2},
+      {"name": "Confire", "points": 3},
+      {"name": "Sous vide", "points": 3},
+      {"name": "Fumer", "points": 3}
+    ],
+    "trap": {"name": "Lyophiliser", "penalty": 5}
+  }
+]

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "musique_s_001",
+    "theme": "Musique",
+    "question": "Cite des membres du groupe The Beatles",
+    "items": [
+      {"name": "John Lennon", "points": 1},
+      {"name": "Paul McCartney", "points": 1},
+      {"name": "George Harrison", "points": 2},
+      {"name": "Ringo Starr", "points": 2}
+    ],
+    "trap": {"name": "Pete Best", "penalty": 5}
+  },
+  {
+    "id": "musique_s_002",
+    "theme": "Musique",
+    "question": "Cite des albums de Michael Jackson",
+    "items": [
+      {"name": "Thriller", "points": 1},
+      {"name": "Bad", "points": 1},
+      {"name": "Dangerous", "points": 2},
+      {"name": "Off the Wall", "points": 2},
+      {"name": "HIStory", "points": 3},
+      {"name": "Invincible", "points": 4},
+      {"name": "Blood on the Dance Floor", "points": 4}
+    ],
+    "trap": {"name": "Purple Rain", "penalty": 5}
+  },
+  {
+    "id": "musique_s_003",
+    "theme": "Musique",
+    "question": "Cite des instruments de l'orchestre symphonique",
+    "items": [
+      {"name": "Violon", "points": 1},
+      {"name": "Trompette", "points": 1},
+      {"name": "Flûte", "points": 1},
+      {"name": "Hautbois", "points": 2},
+      {"name": "Contrebasson", "points": 3},
+      {"name": "Cor anglais", "points": 4},
+      {"name": "Tuba", "points": 2},
+      {"name": "Timbales", "points": 2}
+    ],
+    "trap": {"name": "Saxophone", "penalty": 5}
+  },
+  {
+    "id": "musique_s_004",
+    "theme": "Musique",
+    "question": "Cite des chanteurs français ayant vendu plus de 10 millions d'albums",
+    "items": [
+      {"name": "Johnny Hallyday", "points": 1},
+      {"name": "Céline Dion", "points": 1},
+      {"name": "Edith Piaf", "points": 1},
+      {"name": "Charles Aznavour", "points": 2},
+      {"name": "Mylène Farmer", "points": 2},
+      {"name": "Claude François", "points": 3},
+      {"name": "Serge Gainsbourg", "points": 3}
+    ],
+    "trap": {"name": "Stromae", "penalty": 5}
+  },
+  {
+    "id": "musique_s_005",
+    "theme": "Musique",
+    "question": "Cite des genres musicaux ayant émergé aux États-Unis",
+    "items": [
+      {"name": "Jazz", "points": 1},
+      {"name": "Blues", "points": 1},
+      {"name": "Rock and Roll", "points": 1},
+      {"name": "Hip-hop", "points": 1},
+      {"name": "Country", "points": 2},
+      {"name": "Soul", "points": 2},
+      {"name": "Funk", "points": 2},
+      {"name": "Bluegrass", "points": 4}
+    ],
+    "trap": {"name": "Reggae", "penalty": 5}
+  },
+  {
+    "id": "musique_s_006",
+    "theme": "Musique",
+    "question": "Cite des albums les plus vendus de tous les temps",
+    "items": [
+      {"name": "Thriller - Michael Jackson", "points": 1},
+      {"name": "Back in Black - AC/DC", "points": 2},
+      {"name": "Dark Side of the Moon - Pink Floyd", "points": 2},
+      {"name": "Come On Over - Shania Twain", "points": 3},
+      {"name": "Bat Out of Hell - Meat Loaf", "points": 4},
+      {"name": "Rumours - Fleetwood Mac", "points": 3},
+      {"name": "Hotel California - Eagles", "points": 3}
+    ],
+    "trap": {"name": "Purple Rain - Prince", "penalty": 5}
+  },
+  {
+    "id": "musique_s_007",
+    "theme": "Musique",
+    "question": "Cite des rappeurs américains ayant dépassé 100 millions d'albums vendus",
+    "items": [
+      {"name": "Eminem", "points": 1},
+      {"name": "Jay-Z", "points": 1},
+      {"name": "Tupac", "points": 1},
+      {"name": "Nicki Minaj", "points": 2},
+      {"name": "Drake", "points": 2},
+      {"name": "Lil Wayne", "points": 3},
+      {"name": "Notorious B.I.G.", "points": 3}
+    ],
+    "trap": {"name": "Kendrick Lamar", "penalty": 5}
+  },
+  {
+    "id": "musique_s_008",
+    "theme": "Musique",
+    "question": "Cite des prix musicaux lors des Grammy Awards (catégories)",
+    "items": [
+      {"name": "Album de l'année", "points": 1},
+      {"name": "Chanson de l'année", "points": 1},
+      {"name": "Enregistrement de l'année", "points": 2},
+      {"name": "Meilleur nouvel artiste", "points": 2},
+      {"name": "Meilleur album pop vocal", "points": 3},
+      {"name": "Meilleur album rap", "points": 3},
+      {"name": "Meilleur album de musique du monde", "points": 4}
+    ],
+    "trap": {"name": "Meilleur clip musical", "penalty": 5}
+  },
+  {
+    "id": "musique_s_009",
+    "theme": "Musique",
+    "question": "Cite des groupes de rock légendaires des années 70-80",
+    "items": [
+      {"name": "Led Zeppelin", "points": 1},
+      {"name": "Queen", "points": 1},
+      {"name": "AC/DC", "points": 1},
+      {"name": "Guns N' Roses", "points": 1},
+      {"name": "Metallica", "points": 2},
+      {"name": "Aerosmith", "points": 2},
+      {"name": "Deep Purple", "points": 3},
+      {"name": "Black Sabbath", "points": 3}
+    ],
+    "trap": {"name": "Nirvana", "penalty": 5}
+  },
+  {
+    "id": "musique_s_010",
+    "theme": "Musique",
+    "question": "Cite des compositeurs classiques (baroque / classique / romantique)",
+    "items": [
+      {"name": "Mozart", "points": 1},
+      {"name": "Beethoven", "points": 1},
+      {"name": "Bach", "points": 1},
+      {"name": "Chopin", "points": 2},
+      {"name": "Vivaldi", "points": 2},
+      {"name": "Debussy", "points": 2},
+      {"name": "Schubert", "points": 3},
+      {"name": "Brahms", "points": 3},
+      {"name": "Tchaïkovski", "points": 2}
+    ],
+    "trap": {"name": "Wagner", "penalty": 5}
+  },
+  {
+    "id": "musique_s_011",
+    "theme": "Musique",
+    "question": "Cite des artistes ayant été têtes d'affiche de Coachella",
+    "items": [
+      {"name": "Beyoncé", "points": 1},
+      {"name": "Eminem", "points": 2},
+      {"name": "Kanye West", "points": 2},
+      {"name": "Daft Punk", "points": 2},
+      {"name": "Kendrick Lamar", "points": 2},
+      {"name": "Frank Ocean", "points": 3},
+      {"name": "Bad Bunny", "points": 3}
+    ],
+    "trap": {"name": "Taylor Swift", "penalty": 5}
+  },
+  {
+    "id": "musique_s_012",
+    "theme": "Musique",
+    "question": "Cite des hits de Rihanna",
+    "items": [
+      {"name": "Umbrella", "points": 1},
+      {"name": "We Found Love", "points": 1},
+      {"name": "Diamonds", "points": 1},
+      {"name": "Work", "points": 2},
+      {"name": "Stay", "points": 2},
+      {"name": "Only Girl (In The World)", "points": 2},
+      {"name": "Needed Me", "points": 3},
+      {"name": "Disturbia", "points": 3}
+    ],
+    "trap": {"name": "Bad Guy", "penalty": 5}
+  },
+  {
+    "id": "musique_s_013",
+    "theme": "Musique",
+    "question": "Cite des festivals de musique les plus emblématiques au monde",
+    "items": [
+      {"name": "Glastonbury", "points": 1},
+      {"name": "Coachella", "points": 1},
+      {"name": "Rock en Seine", "points": 2},
+      {"name": "Tomorrowland", "points": 2},
+      {"name": "Woodstock", "points": 2},
+      {"name": "Download Festival", "points": 3},
+      {"name": "Les Vieilles Charrues", "points": 3},
+      {"name": "Primavera Sound", "points": 4}
+    ],
+    "trap": {"name": "Roland Garros", "penalty": 5}
+  },
+  {
+    "id": "musique_s_014",
+    "theme": "Musique",
+    "question": "Cite des albums de Beyoncé",
+    "items": [
+      {"name": "Lemonade", "points": 1},
+      {"name": "Dangerously in Love", "points": 2},
+      {"name": "4", "points": 3},
+      {"name": "B'Day", "points": 3},
+      {"name": "I Am... Sasha Fierce", "points": 2},
+      {"name": "Renaissance", "points": 2},
+      {"name": "Cowboy Carter", "points": 2}
+    ],
+    "trap": {"name": "Formation", "penalty": 5}
+  },
+  {
+    "id": "musique_s_015",
+    "theme": "Musique",
+    "question": "Cite des chanteurs / groupes de K-Pop mondialement connus",
+    "items": [
+      {"name": "BTS", "points": 1},
+      {"name": "BLACKPINK", "points": 1},
+      {"name": "EXO", "points": 2},
+      {"name": "TWICE", "points": 2},
+      {"name": "Stray Kids", "points": 3},
+      {"name": "NCT", "points": 3},
+      {"name": "aespa", "points": 4},
+      {"name": "SHINee", "points": 4}
+    ],
+    "trap": {"name": "Psy", "penalty": 5}
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "version": "1.0",
+  "description": "Banque de questions Mode Soirée — listes ouvertes avec piège. Format: items 6-10 avec points 1-5, 1 trap par liste.",
+  "themes": ["Manga", "Sport", "Cinéma", "Histoire", "Cuisine", "Musique", "Sciences", "Géographie"],
+  "files": {
+    "manga": "manga.json",
+    "sport": "sport.json",
+    "cinema": "cinema.json",
+    "histoire": "histoire.json",
+    "cuisine": "cuisine.json",
+    "musique": "musique.json",
+    "sciences": "sciences.json",
+    "geographie": "geographie.json"
+  },
+  "schema": {
+    "id": "string — identifiant unique",
+    "theme": "string",
+    "question": "string — formulation orale pour le lecteur",
+    "items": [{"name": "string", "points": "1-5"}],
+    "trap": {"name": "string — réponse fausse piège", "penalty": 5}
+  }
+}

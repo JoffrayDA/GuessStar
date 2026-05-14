@@ -1,0 +1,234 @@
+[
+  {
+    "id": "manga_s_001",
+    "theme": "Manga",
+    "question": "Cite des membres de l'équipage de Luffy dans One Piece",
+    "items": [
+      {"name": "Zoro", "points": 1},
+      {"name": "Nami", "points": 1},
+      {"name": "Usopp", "points": 2},
+      {"name": "Sanji", "points": 1},
+      {"name": "Chopper", "points": 2},
+      {"name": "Robin", "points": 2},
+      {"name": "Franky", "points": 3},
+      {"name": "Brook", "points": 3},
+      {"name": "Jinbe", "points": 4}
+    ],
+    "trap": {"name": "Ace", "penalty": 5}
+  },
+  {
+    "id": "manga_s_002",
+    "theme": "Manga",
+    "question": "Cite des Piliers (Hashira) dans Demon Slayer",
+    "items": [
+      {"name": "Rengoku", "points": 1},
+      {"name": "Tomioka", "points": 1},
+      {"name": "Shinobu", "points": 2},
+      {"name": "Tengen Uzui", "points": 2},
+      {"name": "Muichiro Tokito", "points": 3},
+      {"name": "Mitsuri Kanroji", "points": 3},
+      {"name": "Obanai Iguro", "points": 4},
+      {"name": "Sanemi Shinazugawa", "points": 4},
+      {"name": "Gyomei Himejima", "points": 5}
+    ],
+    "trap": {"name": "Tanjiro", "penalty": 5}
+  },
+  {
+    "id": "manga_s_003",
+    "theme": "Manga",
+    "question": "Cite des Homunculus dans Fullmetal Alchemist",
+    "items": [
+      {"name": "Lust", "points": 1},
+      {"name": "Gluttony", "points": 1},
+      {"name": "Envy", "points": 2},
+      {"name": "Greed", "points": 2},
+      {"name": "Sloth", "points": 3},
+      {"name": "Wrath", "points": 3},
+      {"name": "Pride", "points": 4}
+    ],
+    "trap": {"name": "Edward Elric", "penalty": 5}
+  },
+  {
+    "id": "manga_s_004",
+    "theme": "Manga",
+    "question": "Cite des membres de l'Akatsuki dans Naruto",
+    "items": [
+      {"name": "Pain", "points": 1},
+      {"name": "Itachi", "points": 1},
+      {"name": "Kisame", "points": 2},
+      {"name": "Deidara", "points": 2},
+      {"name": "Sasori", "points": 2},
+      {"name": "Hidan", "points": 3},
+      {"name": "Kakuzu", "points": 3},
+      {"name": "Konan", "points": 4},
+      {"name": "Zetsu", "points": 4}
+    ],
+    "trap": {"name": "Orochimaru", "penalty": 5}
+  },
+  {
+    "id": "manga_s_005",
+    "theme": "Manga",
+    "question": "Cite des Capitaines des 13 Divisions dans Bleach",
+    "items": [
+      {"name": "Yamamoto", "points": 1},
+      {"name": "Byakuya Kuchiki", "points": 1},
+      {"name": "Tōshirō Hitsugaya", "points": 2},
+      {"name": "Kenpachi Zaraki", "points": 2},
+      {"name": "Mayuri Kurotsuchi", "points": 3},
+      {"name": "Jūshirō Ukitake", "points": 3},
+      {"name": "Shunsui Kyōraku", "points": 3},
+      {"name": "Retsu Unohana", "points": 4}
+    ],
+    "trap": {"name": "Ichigo", "penalty": 5}
+  },
+  {
+    "id": "manga_s_006",
+    "theme": "Manga",
+    "question": "Cite des Titans dans L'Attaque des Titans",
+    "items": [
+      {"name": "Titan Colossal", "points": 1},
+      {"name": "Titan Cuirassé", "points": 1},
+      {"name": "Titan Assaillant", "points": 2},
+      {"name": "Titan Femelle", "points": 2},
+      {"name": "Titan Danseur", "points": 3},
+      {"name": "Titan Marteleur", "points": 3},
+      {"name": "Titan Mâchoire", "points": 4},
+      {"name": "Titan Fauve", "points": 4},
+      {"name": "Titan Fondateur", "points": 5}
+    ],
+    "trap": {"name": "Titan Souriant", "penalty": 5}
+  },
+  {
+    "id": "manga_s_007",
+    "theme": "Manga",
+    "question": "Cite des Amiraux de la Marine dans One Piece",
+    "items": [
+      {"name": "Akainu", "points": 1},
+      {"name": "Aokiji", "points": 1},
+      {"name": "Kizaru", "points": 2},
+      {"name": "Fujitora", "points": 3},
+      {"name": "Ryokugyu", "points": 4}
+    ],
+    "trap": {"name": "Garp", "penalty": 5}
+  },
+  {
+    "id": "manga_s_008",
+    "theme": "Manga",
+    "question": "Cite des membres de la Brigade Fantôme dans Hunter x Hunter",
+    "items": [
+      {"name": "Chrollo Lucilfer", "points": 1},
+      {"name": "Hisoka", "points": 1},
+      {"name": "Feitan", "points": 2},
+      {"name": "Machi", "points": 3},
+      {"name": "Nobunaga", "points": 3},
+      {"name": "Phinks", "points": 4},
+      {"name": "Shalnark", "points": 4},
+      {"name": "Kortopi", "points": 5}
+    ],
+    "trap": {"name": "Killua", "penalty": 5}
+  },
+  {
+    "id": "manga_s_009",
+    "theme": "Manga",
+    "question": "Cite des Empereurs (Yonko) de One Piece",
+    "items": [
+      {"name": "Barbe Blanche", "points": 1},
+      {"name": "Shanks", "points": 1},
+      {"name": "Big Mom", "points": 2},
+      {"name": "Kaido", "points": 2},
+      {"name": "Barbe Noire", "points": 3},
+      {"name": "Luffy", "points": 3}
+    ],
+    "trap": {"name": "Dragon", "penalty": 5}
+  },
+  {
+    "id": "manga_s_010",
+    "theme": "Manga",
+    "question": "Cite des pouvoirs de transformation de Naruto",
+    "items": [
+      {"name": "Mode Sage", "points": 2},
+      {"name": "Mode Kurama", "points": 2},
+      {"name": "Manteau de Chakra Kurama", "points": 3},
+      {"name": "Mode Hermite des Grenouilles", "points": 3},
+      {"name": "Mode Bijū", "points": 4},
+      {"name": "Mode Chakra des Six Chemins", "points": 5}
+    ],
+    "trap": {"name": "Sharingan", "penalty": 5}
+  },
+  {
+    "id": "manga_s_011",
+    "theme": "Manga",
+    "question": "Cite des classes de héros dans My Hero Academia",
+    "items": [
+      {"name": "Classe 1-A", "points": 1},
+      {"name": "Classe 1-B", "points": 2},
+      {"name": "Classe 2-A", "points": 3},
+      {"name": "Classe Support", "points": 3},
+      {"name": "Classe Gestion", "points": 4},
+      {"name": "Classe Générale", "points": 4}
+    ],
+    "trap": {"name": "Classe 3-A", "penalty": 5}
+  },
+  {
+    "id": "manga_s_012",
+    "theme": "Manga",
+    "question": "Cite des Fruits du Démon de type Logia dans One Piece",
+    "items": [
+      {"name": "Mera Mera no Mi (Feu)", "points": 1},
+      {"name": "Hie Hie no Mi (Glace)", "points": 2},
+      {"name": "Goro Goro no Mi (Foudre)", "points": 2},
+      {"name": "Magu Magu no Mi (Magma)", "points": 3},
+      {"name": "Yami Yami no Mi (Ténèbres)", "points": 3},
+      {"name": "Pika Pika no Mi (Lumière)", "points": 3},
+      {"name": "Suna Suna no Mi (Sable)", "points": 4},
+      {"name": "Gasu Gasu no Mi (Gaz)", "points": 5}
+    ],
+    "trap": {"name": "Gomu Gomu no Mi", "penalty": 5}
+  },
+  {
+    "id": "manga_s_013",
+    "theme": "Manga",
+    "question": "Cite des Hokage de Konoha dans Naruto",
+    "items": [
+      {"name": "Hashirama Senju", "points": 2},
+      {"name": "Tobirama Senju", "points": 2},
+      {"name": "Hiruzen Sarutobi", "points": 1},
+      {"name": "Minato Namikaze", "points": 2},
+      {"name": "Tsunade", "points": 1},
+      {"name": "Kakashi Hatake", "points": 2},
+      {"name": "Naruto Uzumaki", "points": 1}
+    ],
+    "trap": {"name": "Jiraiya", "penalty": 5}
+  },
+  {
+    "id": "manga_s_014",
+    "theme": "Manga",
+    "question": "Cite des Dieux Célestes (Celestia Dragneel) dans Fairy Tail",
+    "items": [
+      {"name": "Natsu Dragneel", "points": 1},
+      {"name": "Erza Scarlet", "points": 1},
+      {"name": "Gray Fullbuster", "points": 1},
+      {"name": "Lucy Heartfilia", "points": 1},
+      {"name": "Wendy Marvell", "points": 2},
+      {"name": "Gajeel Redfox", "points": 3},
+      {"name": "Laxus Dreyar", "points": 3},
+      {"name": "Makarov Dreyar", "points": 4}
+    ],
+    "trap": {"name": "Jellal", "penalty": 5}
+  },
+  {
+    "id": "manga_s_015",
+    "theme": "Manga",
+    "question": "Cite des transformations Super Saiyan de Goku dans Dragon Ball",
+    "items": [
+      {"name": "Super Saiyan 1", "points": 1},
+      {"name": "Super Saiyan 2", "points": 2},
+      {"name": "Super Saiyan 3", "points": 2},
+      {"name": "Super Saiyan God", "points": 3},
+      {"name": "Super Saiyan Blue", "points": 3},
+      {"name": "Ultra Instinct", "points": 4},
+      {"name": "Super Saiyan 4", "points": 4}
+    ],
+    "trap": {"name": "Super Saiyan Violet", "penalty": 5}
+  }
+]
