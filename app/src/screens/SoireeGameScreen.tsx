@@ -123,7 +123,9 @@ export default function SoireeGameScreen({ navigation }: Props) {
             <Text style={s.trapLabel}>PIÈGE</Text>
             <Text style={s.trapName}>{question.trap.name}</Text>
           </View>
-          <Text style={s.trapPenalty}>-{question.trap.penalty}pts</Text>
+          <View style={s.trapPenaltyWrap}>
+            <Text style={s.trapPenalty}>-{question.trap.penalty}pts</Text>
+          </View>
         </TouchableOpacity>
       </ScrollView>
 
@@ -178,7 +180,6 @@ const s = StyleSheet.create({
     backgroundColor: '#1a1a2e',
     borderRadius: 12,
     marginBottom: 8,
-    overflow: 'hidden',
     borderWidth: 1,
     borderColor: '#2a2a4a',
   },
@@ -215,7 +216,8 @@ const s = StyleSheet.create({
   trapIcon: { fontSize: 22 },
   trapLabel: { fontSize: 10, fontWeight: '700', color: '#ef4444', letterSpacing: 1 },
   trapName: { fontSize: 15, fontWeight: '600', color: '#ffffff' },
-  trapPenalty: { marginLeft: 'auto', fontSize: 15, fontWeight: '800', color: '#ef4444' },
+  trapPenaltyWrap: { flex: 1, alignItems: 'flex-end' },
+  trapPenalty: { fontSize: 15, fontWeight: '800', color: '#ef4444' },
   footer: {
     flexDirection: 'row',
     alignItems: 'center',

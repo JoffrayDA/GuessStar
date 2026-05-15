@@ -53,6 +53,7 @@ export default function SoireeSetupScreen({ navigation }: Props) {
         </View>
       </View>
 
+      <View style={s.spacer} />
       <TouchableOpacity style={s.btn} onPress={handleStart}>
         <Text style={s.btnText}>C'est parti ! →</Text>
       </TouchableOpacity>
@@ -78,12 +79,12 @@ const s = StyleSheet.create({
     padding: 16,
   },
   vs: { fontSize: 20, fontWeight: '900', color: '#e94560', marginVertical: 12 },
+  spacer: { flex: 1 },
   btn: {
     backgroundColor: '#e94560',
     borderRadius: 14,
     padding: 18,
     alignItems: 'center',
-    marginTop: 'auto',
   },
   btnText: { color: '#ffffff', fontSize: 18, fontWeight: '800' },
 });

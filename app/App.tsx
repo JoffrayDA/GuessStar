@@ -19,8 +19,6 @@ export default function App() {
         <Stack.Navigator
           screenOptions={{
             headerShown: false,
-            contentStyle: { backgroundColor: '#0d0d1a' },
-            animation: 'slide_from_right',
           }}
         >
           <Stack.Screen name="Home" component={HomeScreen} />
