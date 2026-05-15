@@ -1,20 +1,35 @@
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { GameProvider } from './src/context/GameContext';
+import HomeScreen from './src/screens/HomeScreen';
+import SoireeSetupScreen from './src/screens/SoireeSetupScreen';
+import SoireeThemeScreen from './src/screens/SoireeThemeScreen';
+import SoireeGameScreen from './src/screens/SoireeGameScreen';
+import SoireeScoreScreen from './src/screens/SoireeScoreScreen';
+import { RootStackParamList } from './src/types';
+
+const Stack = createNativeStackNavigator<RootStackParamList>();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <GameProvider>
+      <NavigationContainer>
+        <StatusBar style="light" />
+        <Stack.Navigator
+          screenOptions={{
+            headerShown: false,
+            contentStyle: { backgroundColor: '#0d0d1a' },
+            animation: 'slide_from_right',
+          }}
+        >
+          <Stack.Screen name="Home" component={HomeScreen} />
+          <Stack.Screen name="SoireeSetup" component={SoireeSetupScreen} />
+          <Stack.Screen name="SoireeTheme" component={SoireeThemeScreen} />
+          <Stack.Screen name="SoireeGame" component={SoireeGameScreen} />
+          <Stack.Screen name="SoireeScore" component={SoireeScoreScreen} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </GameProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
