@@ -19,7 +19,7 @@ export interface SoireeQuestion {
 export type RootStackParamList = {
   Home: undefined;
   SoireeSetup: undefined;
-  SoireeTheme: undefined;
+  SoireeTransition: undefined;
   SoireeGame: undefined;
   SoireeScore: undefined;
 };

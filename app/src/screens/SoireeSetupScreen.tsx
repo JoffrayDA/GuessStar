@@ -3,6 +3,7 @@ import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-nativ
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList } from '../types';
 import { useGame } from '../context/GameContext';
+import { getRandomThemes } from '../data/loader';
 
 type Props = { navigation: NativeStackNavigationProp<RootStackParamList, 'SoireeSetup'> };
 
@@ -14,8 +15,10 @@ export default function SoireeSetupScreen({ navigation }: Props) {
   const handleStart = () => {
     const nameA = teamA.trim() || 'Équipe A';
     const nameB = teamB.trim() || 'Équipe B';
+    const theme = getRandomThemes(1)[0];
     dispatch({ type: 'START_GAME', teams: [nameA, nameB] });
-    navigation.navigate('SoireeTheme');
+    dispatch({ type: 'SET_PENDING_THEME', theme });
+    navigation.navigate('SoireeTransition');
   };
 
   return (

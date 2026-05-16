@@ -7,14 +7,16 @@ interface GameState {
   currentTeam: 0 | 1;
   questions: SoireeQuestion[];
   questionIndex: number;
+  pendingTheme: string | null;
 }
 
 type GameAction =
   | { type: 'START_GAME'; teams: [string, string] }
+  | { type: 'SET_PENDING_THEME'; theme: string }
   | { type: 'SET_QUESTIONS'; questions: SoireeQuestion[] }
   | { type: 'ADD_POINTS'; points: number }
   | { type: 'NEXT_QUESTION' }
-  | { type: 'SWITCH_TEAM' }
+  | { type: 'SWITCH_TEAM'; theme: string }
   | { type: 'RESET' };
 
 const initialState: GameState = {
@@ -23,12 +25,15 @@ const initialState: GameState = {
   currentTeam: 0,
   questions: [],
   questionIndex: 0,
+  pendingTheme: null,
 };
 
 function gameReducer(state: GameState, action: GameAction): GameState {
   switch (action.type) {
     case 'START_GAME':
       return { ...initialState, teams: action.teams };
+    case 'SET_PENDING_THEME':
+      return { ...state, pendingTheme: action.theme };
     case 'SET_QUESTIONS':
       return { ...state, questions: action.questions, questionIndex: 0 };
     case 'ADD_POINTS': {
@@ -39,7 +44,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     case 'NEXT_QUESTION':
       return { ...state, questionIndex: state.questionIndex + 1 };
     case 'SWITCH_TEAM':
-      return { ...state, currentTeam: state.currentTeam === 0 ? 1 : 0, questionIndex: 0, questions: [] };
+      return { ...state, currentTeam: state.currentTeam === 0 ? 1 : 0, questionIndex: 0, questions: [], pendingTheme: action.theme };
     case 'RESET':
       return initialState;
     default:

@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import {
-  View, Text, TouchableOpacity, ScrollView, StyleSheet, Alert,
+  View, Text, TouchableOpacity, ScrollView, StyleSheet,
 } from 'react-native';
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 import { RootStackParamList, SoireeQuestion } from '../types';
 import { useGame } from '../context/GameContext';
+import { getRandomThemes } from '../data/loader';
 
 type Props = { navigation: NativeStackNavigationProp<RootStackParamList, 'SoireeGame'> };
 
@@ -59,8 +60,9 @@ export default function SoireeGameScreen({ navigation }: Props) {
 
     if (isLastQuestion) {
       if (state.currentTeam === 0) {
-        dispatch({ type: 'SWITCH_TEAM' });
-        navigation.navigate('SoireeTheme');
+        const nextTheme = getRandomThemes(1)[0];
+        dispatch({ type: 'SWITCH_TEAM', theme: nextTheme });
+        navigation.navigate('SoireeTransition');
       } else {
         navigation.navigate('SoireeScore');
       }

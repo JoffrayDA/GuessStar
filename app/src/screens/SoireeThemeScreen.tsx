@@ -5,7 +5,7 @@ import { RootStackParamList } from '../types';
 import { useGame } from '../context/GameContext';
 import { getRandomThemes, getQuestionsForTheme } from '../data/loader';
 
-type Props = { navigation: NativeStackNavigationProp<RootStackParamList, 'SoireeTheme'> };
+type Props = { navigation: NativeStackNavigationProp<RootStackParamList, 'SoireeTransition'> };
 
 const THEME_ICONS: Record<string, string> = {
   'Manga': '⛩️',
