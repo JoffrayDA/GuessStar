@@ -1,11 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../types';
 import { useGame } from '../context/GameContext';
-import { getRandomThemes, getQuestionsForTheme } from '../data/loader';
 
-type Props = { navigation: NativeStackNavigationProp<RootStackParamList, 'SoireeTransition'> };
+type Props = { navigation: StackNavigationProp<RootStackParamList, 'SoireeTransition'> };
 
 const THEME_ICONS: Record<string, string> = {
   'Manga': '⛩️',
@@ -19,33 +18,34 @@ const THEME_ICONS: Record<string, string> = {
 };
 
 export default function SoireeTransitionScreen({ navigation }: Props) {
-  const { state, dispatch } = useGame();
+  const { state } = useGame();
 
-  const playingTeam = state.teams[state.currentTeam];
-  const readingTeam = state.teams[state.currentTeam === 0 ? 1 : 0];
-  const theme = state.pendingTheme ?? '?';
+  const current = state.gamePlan[state.turnIndex];
+  if (!current) return null;
 
-  const handleStart = () => {
-    const questions = getQuestionsForTheme(theme, 10);
-    dispatch({ type: 'SET_QUESTIONS', questions });
-    navigation.navigate('SoireeGame');
-  };
+  const playingTeam = state.teams[current.team];
+  const readingTeam = state.teams[current.team === 0 ? 1 : 0];
+  const theme = current.theme;
+  const turnNum = state.turnIndex + 1;
+  const totalTurns = state.gamePlan.length;
 
   return (
     <View style={s.container}>
       <View style={s.scoreboard}>
         <View style={s.scoreItem}>
-          <Text style={[s.scoreName, state.currentTeam === 0 && s.activeTeam]}>{state.teams[0]}</Text>
+          <Text style={[s.scoreName, current.team === 0 && s.activeTeam]}>{state.teams[0]}</Text>
           <Text style={s.scoreVal}>{state.scores[0]} pts</Text>
         </View>
         <Text style={s.scoreSep}>·</Text>
         <View style={s.scoreItem}>
-          <Text style={[s.scoreName, state.currentTeam === 1 && s.activeTeam]}>{state.teams[1]}</Text>
+          <Text style={[s.scoreName, current.team === 1 && s.activeTeam]}>{state.teams[1]}</Text>
           <Text style={s.scoreVal}>{state.scores[1]} pts</Text>
         </View>
       </View>
 
-      <View style={s.card}>
+      <Text style={s.counter}>Question {turnNum} / {totalTurns}</Text>
+
+      <View style={s.themeCard}>
         <Text style={s.themeIcon}>{THEME_ICONS[theme] ?? '❓'}</Text>
         <Text style={s.themeLabel}>THÈME</Text>
         <Text style={s.themeName}>{theme}</Text>
@@ -53,14 +53,15 @@ export default function SoireeTransitionScreen({ navigation }: Props) {
 
       <View style={s.roles}>
         <View style={s.roleRow}>
-          <Text style={s.roleIcon}>🎤</Text>
+          <Text style={s.roleEmoji}>🎤</Text>
           <View>
             <Text style={s.roleLabel}>JOUE</Text>
             <Text style={s.roleName}>{playingTeam}</Text>
           </View>
         </View>
+        <View style={s.divider} />
         <View style={s.roleRow}>
-          <Text style={s.roleIcon}>📱</Text>
+          <Text style={s.roleEmoji}>📱</Text>
           <View>
             <Text style={s.roleLabel}>TIENT LE TÉLÉPHONE</Text>
             <Text style={s.roleName}>{readingTeam}</Text>
@@ -68,13 +69,11 @@ export default function SoireeTransitionScreen({ navigation }: Props) {
         </View>
       </View>
 
-      <Text style={s.hint}>
-        {readingTeam} lit la question à voix haute et coche les réponses trouvées.
-      </Text>
+      <Text style={s.hint}>{readingTeam} lit la question et coche les réponses. 50 secondes !</Text>
 
       <View style={s.spacer} />
-      <TouchableOpacity style={s.btn} onPress={handleStart}>
-        <Text style={s.btnText}>On joue ! →</Text>
+      <TouchableOpacity style={s.btn} onPress={() => navigation.navigate('SoireeGame')}>
+        <Text style={s.btnText}>Prêts ? →</Text>
       </TouchableOpacity>
     </View>
   );
@@ -89,52 +88,34 @@ const s = StyleSheet.create({
     backgroundColor: '#1a1a2e',
     borderRadius: 12,
     padding: 14,
-    marginBottom: 32,
+    marginBottom: 12,
   },
   scoreItem: { alignItems: 'center', flex: 1 },
   scoreName: { fontSize: 13, color: '#8892b0', fontWeight: '600' },
   activeTeam: { color: '#e94560' },
   scoreVal: { fontSize: 22, fontWeight: '800', color: '#ffffff' },
   scoreSep: { fontSize: 24, color: '#2a2a4a' },
-  card: {
+  counter: { textAlign: 'center', fontSize: 12, color: '#8892b0', marginBottom: 20 },
+  themeCard: {
     backgroundColor: '#1a1a2e',
     borderRadius: 20,
-    padding: 32,
+    padding: 28,
     alignItems: 'center',
-    marginBottom: 24,
+    marginBottom: 16,
     borderWidth: 2,
     borderColor: '#e94560',
   },
-  themeIcon: { fontSize: 56, marginBottom: 12 },
+  themeIcon: { fontSize: 52, marginBottom: 10 },
   themeLabel: { fontSize: 11, fontWeight: '700', color: '#8892b0', letterSpacing: 2, marginBottom: 4 },
-  themeName: { fontSize: 30, fontWeight: '900', color: '#ffffff' },
-  roles: {
-    backgroundColor: '#1a1a2e',
-    borderRadius: 14,
-    padding: 16,
-    marginBottom: 16,
-  },
-  roleRow: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingVertical: 10,
-  },
-  roleIcon: { fontSize: 28, marginRight: 14 },
+  themeName: { fontSize: 28, fontWeight: '900', color: '#ffffff' },
+  roles: { backgroundColor: '#1a1a2e', borderRadius: 14, padding: 16, marginBottom: 12 },
+  roleRow: { flexDirection: 'row', alignItems: 'center', paddingVertical: 10 },
+  roleEmoji: { fontSize: 26, marginRight: 14 },
   roleLabel: { fontSize: 10, fontWeight: '700', color: '#8892b0', letterSpacing: 1 },
   roleName: { fontSize: 17, fontWeight: '700', color: '#ffffff', marginTop: 2 },
-  hint: {
-    fontSize: 13,
-    color: '#8892b0',
-    textAlign: 'center',
-    marginBottom: 24,
-    lineHeight: 20,
-  },
+  divider: { height: 1, backgroundColor: '#2a2a4a' },
+  hint: { fontSize: 13, color: '#8892b0', textAlign: 'center', lineHeight: 20 },
   spacer: { flex: 1 },
-  btn: {
-    backgroundColor: '#e94560',
-    borderRadius: 14,
-    padding: 18,
-    alignItems: 'center',
-  },
+  btn: { backgroundColor: '#e94560', borderRadius: 14, padding: 18, alignItems: 'center' },
   btnText: { color: '#ffffff', fontSize: 18, fontWeight: '800' },
 });

@@ -39,3 +39,25 @@ export function getQuestionsForTheme(theme: string, count = 10): SoireeQuestion[
   const questions = QUESTIONS_BY_THEME[theme] ?? [];
   return shuffle(questions).slice(0, count);
 }
+
+export interface GamePlanItem {
+  question: SoireeQuestion;
+  theme: string;
+  team: 0 | 1;
+}
+
+export function generateGamePlan(totalTurns = 20): GamePlanItem[] {
+  const usedPerTheme: Record<string, Set<string>> = {};
+
+  return Array.from({ length: totalTurns }, (_, i) => {
+    const team = (i % 2) as 0 | 1;
+    const theme = getRandomThemes(1)[0];
+
+    if (!usedPerTheme[theme]) usedPerTheme[theme] = new Set();
+    const pool = shuffle(QUESTIONS_BY_THEME[theme] ?? []);
+    const unused = pool.find(q => !usedPerTheme[theme].has(q.id)) ?? pool[0];
+    usedPerTheme[theme].add(unused.id);
+
+    return { question: unused, theme, team };
+  });
+}

@@ -1,10 +1,10 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../types';
 import { useGame } from '../context/GameContext';
 
-type Props = { navigation: NativeStackNavigationProp<RootStackParamList, 'SoireeScore'> };
+type Props = { navigation: StackNavigationProp<RootStackParamList, 'SoireeScore'> };
 
 export default function SoireeScoreScreen({ navigation }: Props) {
   const { state, dispatch } = useGame();

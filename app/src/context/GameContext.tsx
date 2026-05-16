@@ -1,50 +1,38 @@
 import React, { createContext, useContext, useReducer } from 'react';
-import { SoireeQuestion } from '../types';
+import { GamePlanItem } from '../data/loader';
 
 interface GameState {
   teams: [string, string];
   scores: [number, number];
-  currentTeam: 0 | 1;
-  questions: SoireeQuestion[];
-  questionIndex: number;
-  pendingTheme: string | null;
+  gamePlan: GamePlanItem[];
+  turnIndex: number;
 }
 
 type GameAction =
-  | { type: 'START_GAME'; teams: [string, string] }
-  | { type: 'SET_PENDING_THEME'; theme: string }
-  | { type: 'SET_QUESTIONS'; questions: SoireeQuestion[] }
+  | { type: 'START_GAME'; teams: [string, string]; gamePlan: GamePlanItem[] }
   | { type: 'ADD_POINTS'; points: number }
-  | { type: 'NEXT_QUESTION' }
-  | { type: 'SWITCH_TEAM'; theme: string }
+  | { type: 'NEXT_TURN' }
   | { type: 'RESET' };
 
 const initialState: GameState = {
   teams: ['Équipe A', 'Équipe B'],
   scores: [0, 0],
-  currentTeam: 0,
-  questions: [],
-  questionIndex: 0,
-  pendingTheme: null,
+  gamePlan: [],
+  turnIndex: 0,
 };
 
 function gameReducer(state: GameState, action: GameAction): GameState {
   switch (action.type) {
     case 'START_GAME':
-      return { ...initialState, teams: action.teams };
-    case 'SET_PENDING_THEME':
-      return { ...state, pendingTheme: action.theme };
-    case 'SET_QUESTIONS':
-      return { ...state, questions: action.questions, questionIndex: 0 };
+      return { ...initialState, teams: action.teams, gamePlan: action.gamePlan };
     case 'ADD_POINTS': {
       const newScores: [number, number] = [state.scores[0], state.scores[1]];
-      newScores[state.currentTeam] += action.points;
+      const team = state.gamePlan[state.turnIndex]?.team ?? 0;
+      newScores[team] += action.points;
       return { ...state, scores: newScores };
     }
-    case 'NEXT_QUESTION':
-      return { ...state, questionIndex: state.questionIndex + 1 };
-    case 'SWITCH_TEAM':
-      return { ...state, currentTeam: state.currentTeam === 0 ? 1 : 0, questionIndex: 0, questions: [], pendingTheme: action.theme };
+    case 'NEXT_TURN':
+      return { ...state, turnIndex: state.turnIndex + 1 };
     case 'RESET':
       return initialState;
     default:

@@ -1,88 +1,113 @@
-import React, { useState, useEffect } from 'react';
-import {
-  View, Text, TouchableOpacity, ScrollView, StyleSheet,
-} from 'react-native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
-import { RootStackParamList, SoireeQuestion } from '../types';
+import React, { useState, useEffect, useRef } from 'react';
+import { View, Text, TouchableOpacity, ScrollView, StyleSheet } from 'react-native';
+import { StackNavigationProp } from '@react-navigation/stack';
+import { RootStackParamList } from '../types';
 import { useGame } from '../context/GameContext';
-import { getRandomThemes } from '../data/loader';
 
-type Props = { navigation: NativeStackNavigationProp<RootStackParamList, 'SoireeGame'> };
+type Props = { navigation: StackNavigationProp<RootStackParamList, 'SoireeGame'> };
+
+const TIMER_DURATION = 50;
 
 export default function SoireeGameScreen({ navigation }: Props) {
   const { state, dispatch } = useGame();
-  const question: SoireeQuestion | undefined = state.questions[state.questionIndex];
+
+  const current = state.gamePlan[state.turnIndex];
+  const question = current?.question;
+  const isLastTurn = state.turnIndex >= state.gamePlan.length - 1;
 
   const [checkedItems, setCheckedItems] = useState<Set<number>>(new Set());
   const [pariItems, setPariItems] = useState<Set<number>>(new Set());
   const [roundScore, setRoundScore] = useState(0);
   const [trapTriggered, setTrapTriggered] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(TIMER_DURATION);
+  const [timerDone, setTimerDone] = useState(false);
+
+  const intervalRef = useRef<ReturnType<typeof setInterval> | null>(null);
 
   useEffect(() => {
     setCheckedItems(new Set());
     setPariItems(new Set());
     setRoundScore(0);
     setTrapTriggered(false);
-  }, [state.questionIndex]);
+    setTimeLeft(TIMER_DURATION);
+    setTimerDone(false);
+  }, [state.turnIndex]);
 
-  if (!question) return null;
+  useEffect(() => {
+    if (timerDone) return;
+    intervalRef.current = setInterval(() => {
+      setTimeLeft(prev => {
+        if (prev <= 1) {
+          clearInterval(intervalRef.current!);
+          setTimerDone(true);
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+    return () => { if (intervalRef.current) clearInterval(intervalRef.current); };
+  }, [timerDone]);
 
-  const isLastQuestion = state.questionIndex === state.questions.length - 1;
-  const teamName = state.teams[state.currentTeam];
+  if (!current || !question) return null;
+
+  const playingTeam = state.teams[current.team];
 
   const togglePari = (idx: number) => {
     if (checkedItems.has(idx)) return;
-    setPariItems((prev) => {
+    setPariItems(prev => {
       const next = new Set(prev);
-      if (next.has(idx)) next.delete(idx);
-      else next.add(idx);
+      if (next.has(idx)) next.delete(idx); else next.add(idx);
       return next;
     });
   };
 
   const checkItem = (idx: number) => {
-    if (checkedItems.has(idx)) return;
+    if (checkedItems.has(idx) || timerDone) return;
     const item = question.items[idx];
-    const hasPari = pariItems.has(idx);
-    const gained = hasPari ? item.points * 2 : item.points;
-    setCheckedItems((prev) => new Set(prev).add(idx));
-    setRoundScore((prev) => prev + gained);
+    const gained = pariItems.has(idx) ? item.points * 2 : item.points;
+    setCheckedItems(prev => new Set(prev).add(idx));
+    setRoundScore(prev => prev + gained);
   };
 
   const triggerTrap = () => {
-    if (trapTriggered) return;
+    if (trapTriggered || timerDone) return;
     setTrapTriggered(true);
-    setRoundScore((prev) => prev - question.trap.penalty);
+    setRoundScore(prev => prev - question.trap.penalty);
   };
 
   const handleNext = () => {
+    if (intervalRef.current) clearInterval(intervalRef.current);
     dispatch({ type: 'ADD_POINTS', points: roundScore });
-
-    if (isLastQuestion) {
-      if (state.currentTeam === 0) {
-        const nextTheme = getRandomThemes(1)[0];
-        dispatch({ type: 'SWITCH_TEAM', theme: nextTheme });
-        navigation.navigate('SoireeTransition');
-      } else {
-        navigation.navigate('SoireeScore');
-      }
+    dispatch({ type: 'NEXT_TURN' });
+    if (isLastTurn) {
+      navigation.navigate('SoireeScore');
     } else {
-      dispatch({ type: 'NEXT_QUESTION' });
+      navigation.navigate('SoireeTransition');
     }
   };
+
+  const timerColor = timeLeft > 20 ? '#4ade80' : timeLeft > 10 ? '#fbbf24' : '#ef4444';
+  const turnNum = state.turnIndex + 1;
+  const totalTurns = state.gamePlan.length;
 
   return (
     <View style={s.container}>
       <View style={s.header}>
-        <View style={s.headerLeft}>
-          <Text style={s.teamLabel}>{teamName} joue</Text>
-          <Text style={s.qCounter}>Q {state.questionIndex + 1} / {state.questions.length}</Text>
+        <View>
+          <Text style={s.teamLabel}>{playingTeam} joue</Text>
+          <Text style={s.qCounter}>Q {turnNum} / {totalTurns}</Text>
         </View>
-        <View style={s.scoreBox}>
-          <Text style={s.scoreLabel}>Score total</Text>
-          <Text style={s.scoreVal}>{state.scores[state.currentTeam]} pts</Text>
+        <View style={s.timerBox}>
+          <Text style={[s.timerVal, { color: timerColor }]}>{timeLeft}</Text>
+          <Text style={s.timerSec}>sec</Text>
         </View>
       </View>
+
+      {timerDone && (
+        <View style={s.timesUp}>
+          <Text style={s.timesUpText}>⏱ Temps écoulé !</Text>
+        </View>
+      )}
 
       <View style={s.questionBox}>
         <Text style={s.questionText}>{question.question}</Text>
@@ -94,16 +119,18 @@ export default function SoireeGameScreen({ navigation }: Props) {
           const hasPari = pariItems.has(idx);
           return (
             <View key={idx} style={[s.itemRow, checked && s.itemChecked, hasPari && !checked && s.itemPari]}>
-              <TouchableOpacity style={s.itemMain} onPress={() => checkItem(idx)} disabled={checked}>
-                <Text style={[s.itemCheck, checked && s.itemCheckDone]}>
-                  {checked ? '✓' : '○'}
-                </Text>
+              <TouchableOpacity
+                style={s.itemMain}
+                onPress={() => checkItem(idx)}
+                disabled={checked || timerDone}
+              >
+                <Text style={[s.itemCheck, checked && s.itemCheckDone]}>{checked ? '✓' : '○'}</Text>
                 <Text style={[s.itemName, checked && s.itemNameDone]}>{item.name}</Text>
                 <Text style={s.itemPts}>
                   {hasPari && !checked ? `×2 = ${item.points * 2}pt` : `${item.points}pt`}
                 </Text>
               </TouchableOpacity>
-              {!checked && (
+              {!checked && !timerDone && (
                 <TouchableOpacity
                   style={[s.pariBtn, hasPari && s.pariBtnActive]}
                   onPress={() => togglePari(idx)}
@@ -118,7 +145,7 @@ export default function SoireeGameScreen({ navigation }: Props) {
         <TouchableOpacity
           style={[s.trapRow, trapTriggered && s.trapTriggered]}
           onPress={triggerTrap}
-          disabled={trapTriggered}
+          disabled={trapTriggered || timerDone}
         >
           <Text style={s.trapIcon}>{trapTriggered ? '💀' : '🪤'}</Text>
           <View>
@@ -138,9 +165,13 @@ export default function SoireeGameScreen({ navigation }: Props) {
             {roundScore >= 0 ? '+' : ''}{roundScore} pts
           </Text>
         </View>
-        <TouchableOpacity style={s.nextBtn} onPress={handleNext}>
+        <TouchableOpacity
+          style={[s.nextBtn, !timerDone && s.nextBtnDisabled]}
+          onPress={handleNext}
+          disabled={!timerDone}
+        >
           <Text style={s.nextBtnText}>
-            {isLastQuestion ? 'Fin du tour →' : 'Suivante →'}
+            {isLastTurn ? 'Fin →' : 'Suivante →'}
           </Text>
         </TouchableOpacity>
       </View>
@@ -160,12 +191,19 @@ const s = StyleSheet.create({
     borderBottomWidth: 1,
     borderBottomColor: '#2a2a4a',
   },
-  headerLeft: {},
   teamLabel: { fontSize: 16, fontWeight: '700', color: '#e94560' },
   qCounter: { fontSize: 12, color: '#8892b0', marginTop: 2 },
-  scoreBox: { alignItems: 'flex-end' },
-  scoreLabel: { fontSize: 11, color: '#8892b0' },
-  scoreVal: { fontSize: 22, fontWeight: '800', color: '#ffffff' },
+  timerBox: { alignItems: 'center' },
+  timerVal: { fontSize: 36, fontWeight: '900' },
+  timerSec: { fontSize: 11, color: '#8892b0', marginTop: -4 },
+  timesUp: {
+    backgroundColor: '#2a0a0a',
+    padding: 10,
+    alignItems: 'center',
+    borderBottomWidth: 1,
+    borderBottomColor: '#ef4444',
+  },
+  timesUpText: { color: '#ef4444', fontWeight: '700', fontSize: 14 },
   questionBox: {
     backgroundColor: '#1a1a2e',
     margin: 12,
@@ -186,9 +224,9 @@ const s = StyleSheet.create({
     borderColor: '#2a2a4a',
   },
   itemChecked: { opacity: 0.45, borderColor: '#4ade80' },
-  itemPari: { borderColor: '#f5a623', borderWidth: 1.5 },
-  itemMain: { flex: 1, flexDirection: 'row', alignItems: 'center', padding: 14, gap: 12 },
-  itemCheck: { fontSize: 18, color: '#4a4a6a', width: 24 },
+  itemPari: { borderColor: '#f5a623', borderWidth: 2 },
+  itemMain: { flex: 1, flexDirection: 'row', alignItems: 'center', padding: 14 },
+  itemCheck: { fontSize: 18, color: '#4a4a6a', width: 24, marginRight: 12 },
   itemCheckDone: { color: '#4ade80' },
   itemName: { flex: 1, fontSize: 15, fontWeight: '600', color: '#ffffff' },
   itemNameDone: { color: '#6a8f6a', textDecorationLine: 'line-through' },
@@ -210,12 +248,11 @@ const s = StyleSheet.create({
     borderRadius: 12,
     padding: 14,
     marginBottom: 12,
-    gap: 12,
     borderWidth: 1,
     borderColor: '#4a1a2a',
   },
   trapTriggered: { opacity: 0.5, borderColor: '#ef4444' },
-  trapIcon: { fontSize: 22 },
+  trapIcon: { fontSize: 22, marginRight: 12 },
   trapLabel: { fontSize: 10, fontWeight: '700', color: '#ef4444', letterSpacing: 1 },
   trapName: { fontSize: 15, fontWeight: '600', color: '#ffffff' },
   trapPenaltyWrap: { flex: 1, alignItems: 'flex-end' },
@@ -224,7 +261,6 @@ const s = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 12,
-    gap: 12,
     backgroundColor: '#1a1a2e',
     borderTopWidth: 1,
     borderTopColor: '#2a2a4a',
@@ -234,5 +270,6 @@ const s = StyleSheet.create({
   roundScoreVal: { fontSize: 24, fontWeight: '900', color: '#4ade80' },
   roundScoreNeg: { color: '#ef4444' },
   nextBtn: { backgroundColor: '#e94560', borderRadius: 12, paddingHorizontal: 20, paddingVertical: 14 },
+  nextBtnDisabled: { backgroundColor: '#4a1a2a' },
   nextBtnText: { color: '#ffffff', fontSize: 15, fontWeight: '800' },
 });

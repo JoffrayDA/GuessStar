@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
-import { NativeStackNavigationProp } from '@react-navigation/native-stack';
+import { StackNavigationProp } from '@react-navigation/stack';
 import { RootStackParamList } from '../types';
 import { useGame } from '../context/GameContext';
-import { getRandomThemes } from '../data/loader';
+import { generateGamePlan } from '../data/loader';
 
-type Props = { navigation: NativeStackNavigationProp<RootStackParamList, 'SoireeSetup'> };
+type Props = { navigation: StackNavigationProp<RootStackParamList, 'SoireeSetup'> };
 
 export default function SoireeSetupScreen({ navigation }: Props) {
   const { dispatch } = useGame();
@@ -15,9 +15,8 @@ export default function SoireeSetupScreen({ navigation }: Props) {
   const handleStart = () => {
     const nameA = teamA.trim() || 'Équipe A';
     const nameB = teamB.trim() || 'Équipe B';
-    const theme = getRandomThemes(1)[0];
-    dispatch({ type: 'START_GAME', teams: [nameA, nameB] });
-    dispatch({ type: 'SET_PENDING_THEME', theme });
+    const gamePlan = generateGamePlan(20);
+    dispatch({ type: 'START_GAME', teams: [nameA, nameB], gamePlan });
     navigation.navigate('SoireeTransition');
   };
 
@@ -68,7 +67,7 @@ const s = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#0d0d1a', padding: 24, paddingTop: 60 },
   title: { fontSize: 28, fontWeight: '800', color: '#ffffff', textAlign: 'center' },
   sub: { fontSize: 15, color: '#8892b0', textAlign: 'center', marginTop: 6, marginBottom: 40 },
-  form: { gap: 8, alignItems: 'center' },
+  form: { alignItems: 'center' },
   field: { width: '100%' },
   label: { fontSize: 11, fontWeight: '700', color: '#8892b0', letterSpacing: 2, marginBottom: 8 },
   input: {
@@ -83,11 +82,6 @@ const s = StyleSheet.create({
   },
   vs: { fontSize: 20, fontWeight: '900', color: '#e94560', marginVertical: 12 },
   spacer: { flex: 1 },
-  btn: {
-    backgroundColor: '#e94560',
-    borderRadius: 14,
-    padding: 18,
-    alignItems: 'center',
-  },
+  btn: { backgroundColor: '#e94560', borderRadius: 14, padding: 18, alignItems: 'center' },
   btnText: { color: '#ffffff', fontSize: 18, fontWeight: '800' },
 });
